@@ -1,0 +1,788 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/templates/erji.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="title" -->
+<title>二级页面-展览要闻</title>
+<!-- InstanceEndEditable -->
+<link href="skin/css/style.css" rel="stylesheet" type="text/css" />
+<script src="skin/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="skin/js/Public.js"></script>
+<script type="text/javascript" src="skin/js/select2css.js"></script>
+<script type="text/javascript" src="skin/js/tab.js"></script>
+<!--下拉表单美化-->
+<!-- InstanceBeginEditable name="head" -->
+<link href="zhanlanyaowen/zlywcss/zhanlanyaowen.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="zhanlanyaowen/zlywjs/zhanlanyaowen.js"></script>
+<script src="zhanlanyaowen/zlywjs/www.198zone.com.js" type="text/javascript"></script>
+$(function(){
+	//图片精选
+	$('#scrollpic00').scrollpic({
+		defaultSpeed : 1000,   //默认滚动时间  点击按钮滚动时间
+		speed : 5000   //自动播放滚动时间
+	});
+})
+</script>
+<script>
+(function(d,D,v){d.fn.responsiveSlides=function(h){var b=d.extend({auto:!0,speed:1E3,timeout:7E3,pager:!1,nav:!1,random:!1,pause:!1,pauseControls:!1,prevText:"Previous",nextText:"Next",maxwidth:"",controls:"",namespace:"rslides",before:function(){},after:function(){}},h);return this.each(function(){v++;var e=d(this),n,p,i,k,l,m=0,f=e.children(),w=f.size(),q=parseFloat(b.speed),x=parseFloat(b.timeout),r=parseFloat(b.maxwidth),c=b.namespace,g=c+v,y=c+"_nav "+g+"_nav",s=c+"_here",j=g+"_on",z=g+"_s",
+o=d("<ul class='"+c+"_tabs "+g+"_tabs' />"),A={"float":"left",position:"relative"},E={"float":"none",position:"absolute"},t=function(a){b.before();f.stop().fadeOut(q,function(){d(this).removeClass(j).css(E)}).eq(a).fadeIn(q,function(){d(this).addClass(j).css(A);b.after();m=a})};b.random&&(f.sort(function(){return Math.round(Math.random())-0.5}),e.empty().append(f));f.each(function(a){this.id=z+a});e.addClass(c+" "+g);h&&h.maxwidth&&e.css("max-width",r);f.hide().eq(0).addClass(j).css(A).show();if(1<
+f.size()){if(x<q+100)return;if(b.pager){var u=[];f.each(function(a){a=a+1;u=u+("<li><a href='#' class='"+z+a+"'>"+a+"</a></li>")});o.append(u);l=o.find("a");h.controls?d(b.controls).append(o):e.after(o);n=function(a){l.closest("li").removeClass(s).eq(a).addClass(s)}}b.auto&&(p=function(){k=setInterval(function(){var a=m+1<w?m+1:0;b.pager&&n(a);t(a)},x)},p());i=function(){if(b.auto){clearInterval(k);p()}};b.pause&&e.hover(function(){clearInterval(k)},function(){i()});b.pager&&(l.bind("click",function(a){a.preventDefault();
+b.pauseControls||i();a=l.index(this);if(!(m===a||d("."+j+":animated").length)){n(a);t(a)}}).eq(0).closest("li").addClass(s),b.pauseControls&&l.hover(function(){clearInterval(k)},function(){i()}));if(b.nav){c="<a href='javascript:' class='"+y+" prev'>"+b.prevText+"</a><a href='javascript:' class='"+y+" next'>"+b.nextText+"</a>";h.controls?d(b.controls).append(c):e.after(c);var c=d("."+g+"_nav"),B=d("."+g+"_nav.prev");c.bind("click",function(a){a.preventDefault();if(!d("."+j+":animated").length){var c=f.index(d("."+j)),
+a=c-1,c=c+1<w?m+1:0;t(d(this)[0]===B[0]?a:c);b.pager&&n(d(this)[0]===B[0]?a:c);b.pauseControls||i()}});b.pauseControls&&c.hover(function(){clearInterval(k)},function(){i()})}}if("undefined"===typeof document.body.style.maxWidth&&h.maxwidth){var C=function(){e.css("width","100%");e.width()>r&&e.css("width",r)};C();d(D).bind("resize",function(){C()})}})}})(jQuery,this,0);
+$(function() {
+    $(".f426x240").responsiveSlides({
+        auto: true,
+        pager: true,
+        nav: true,
+        speed: 700
+    });
+    $(".f160x160").responsiveSlides({
+        auto: true,
+        pager: true,
+        speed: 700
+    });
+});
+</script>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<!---------------------------------------------------------------------------common header start------------------------------------------------------------------------------------->
+<!--登录-->
+<div class="shopdl" id="tuiding">
+  <div class="ztk">
+    <div class="logozt">
+      <div class="dlbt"> <span>登录</span> <a href="#" class="cha" title="关闭窗口"><img src="skin/images/cha.png" width="16" height="16"  /></a> </div>
+      <div class="clr"></div>
+      <div class="sjdl">
+        <div class="dlbd">
+          <ul>
+            <li><span>用户名/邮箱：</span>
+              <input type="text" class="yhm" />
+            </li>
+            <li><span>密码：</span>
+              <input type="password" class="yhm" />
+            </li>
+            <li class="zc05">
+              <input type="checkbox" name="vehicle" value="Bike1" class="zc3">
+              <label>下次自动登陆</label>
+            </li>
+            <li>
+              <input type="button" class="tjdl" value="登&nbsp;&nbsp;陆" />
+              <a href="#">忘记密码？</a></li>
+          </ul>
+        </div>
+        <div class="zcm">
+          <p>还没有账号？<br />
+            赶快免费注册一个吧!</p>
+          <a href="#" style="color:#fff;">免费注册</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="beijing"></div>
+<!--登录-->
+
+<!--登录 注册-->
+<div class="header">
+  <div class="h_box1">
+    <div class="index-width">
+      <div class="left"> <a href="#">网站首页</a> <span>欢迎您，kooky豆浆机</span> </div>
+      <ul>
+        <li class="li1"><a href="#">登录</a></li>
+        <li><a href="#">免费注册</a></li>
+        <li class="line"></li>
+        <li class="li2"><a href="#">帮助中心</a></li>
+        <li class="line"></li>
+        <li class="li3"><a href="#">会员中心</a></li>
+        <li class="line"></li>
+        <li class="li4"><a href="#">联系客服</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--登录 注册-->
+
+<div class="clr"></div>
+<!--总导航-->
+<div class="header">
+  <div class="h_box2">
+    <div class="index-width">
+      <div class="h_b_nav"><!--深背景加‘indexbg’类-->
+        <dl>
+          <dt>资讯</dt>
+          <dd class="dd1">
+            <ul>
+        	  <li><a href="#">业界资讯</a></li>
+              <li><a href="#">海外藏品</a></li>
+              <li><a href="#">艺术投资</a></li>
+              <li><a href="#">拍卖</a></li>
+              <li><a href="#">机构</a></li>
+              <li><a href="#">展览要闻</a></li>
+              <li><a href="#">人物观点</a></li>
+              <li><a href="#">独家专题</a></li>
+              <li><a href="#">视频</a></li>
+              <li><a href="#">学术</a></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>收藏</dt>
+          <dd class="dd2">
+            <ul>
+        	 <li><a href="#">书画古玩</a></li>
+             <li><a href="#">油画雕塑</a></li>
+             <li><a href="#">瓷器金砂</a></li>
+             <li><a href="#">铜器佛像</a></li>
+             <li><a href="#">中外邮票</a></li>
+             <li><a href="#">珠宝玉器</a></li>
+             <li><a href="#">当代艺术</a></li>
+             <li><a href="#">摄影艺术</a></li>
+             <li><a href="#">红木家具</a></li>
+             <li><a href="#">草根藏宝</a></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>频道</dt>
+          <dd class="dd3">
+            <ul>
+        	 <li><a href="#">论坛</a></li>
+             <li><a href="#">博客</a></li>
+             <li><a href="#">艺术家</a></li>
+             <li class="pr15"><a href="#">活动</a></li>
+             <li><a href="#">微博</a></li>
+             <li><a href="#">艺购</a></li>
+             <li><a href="#">作品馆</a></li>
+             <li><a href="#">人民艺搜</a></li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+<!--总导航-->
+
+<div class="clr"></div>
+<!--二维码搜索-->
+<div class="header">
+  <div class="h_box5">
+    <div class="index-width">
+      <div class="boxA">
+       <div class="se_box2">
+          <ul>
+            <li class="ico1"><a>收听网站微信</a>
+              <p>
+                <img src="skin/images/weixin.jpg" />
+                请扫描二维码
+              </p>
+            </li>
+            <li class="ico2"><a>收听网站微博</a>
+             <p>
+               <img src="skin/images/weibo.jpg" />
+               请扫描二维码
+             </p>
+            </li>
+          </ul>
+        </div>
+       <div class="se_box1">
+         <div class="l_Search"><input type="text" class="input_text" value="资讯 /图片/专题" onFocus="javascript:if (this.value=='资讯 /图片/专题') this.value='';" onBlur="javascript:if (this.value=='') {this.value='资讯 /图片/专题';}" /><input name="" type="button" class="input_button" /></div>
+         <div class="keybox"><a href="#">精品专题</a><a href="#">热点人物</a></div>
+       </div>
+      </div> 
+    </div>
+  </div>
+</div>
+<!--二维码搜索-->
+
+<div class="clr"></div>
+
+<!--广告-->
+<div class="header">
+  <div class="h_box7">
+    <div class="index-width">
+      <div class="add1"><a href="#"><img src="skin/images/add1.jpg" /></a></div>
+    </div>
+  </div>
+</div>
+<!--广告-->
+
+<div class="clr"></div>
+
+<!--logo1 add-->
+<div class="header">
+  <div class="h_box8">
+    <div class="index-width">
+      <div class="logo">
+        <div><p class="tit"><span><a><!-- InstanceBeginEditable name="logo-name" -->展览要闻<!-- InstanceEndEditable --></a></span></p></div>
+      </div>
+       <div class="add"><!-- InstanceBeginEditable name="广告图" --><img src="skin/images/ssgwad.gif"/><!-- InstanceEndEditable --></div>
+    </div>
+  </div>
+</div>
+<!--logo1 add-->
+
+
+<!--二级页面分类导航-->
+<div class="header">
+  <div class="h_box4">
+   <div class="nav_b1">
+    <div class="index-width">
+       <ul class="nav_ul">
+            <li class="nav_li1"><a href="#" class="nav_a">红木家具</a></li>
+            <li class="line"></li>
+            <li class="nav_li">
+               <a href="#" class="nav_a on">资讯</a>
+               <ul class="x_ul">
+                 <li><a href="#">· 创新</a></li>
+                 <li><a href="#">· 行情</a></li>
+                 <li><a href="#">· 活动</a></li>
+               </ul>
+            </li>
+            <li class="line"></li>
+            <li class="nav_li1"><a href="#" class="nav_a on">行情</a></li>
+            <li class="line"></li>
+            <li class="nav_li"><a href="#" class="nav_a">文化</a>
+               <ul class="x_ul">
+                 <li><a href="#">· 历史</a></li>
+                 <li><a href="#">· 百科</a></li>
+                 <li><a href="#">· 故事</a></li>
+               </ul>
+            </li>
+            <li class="line"></li>
+            <li class="nav_li"><a href="#" class="nav_a">人物</a>
+               <ul class="x_ul">
+                 <li><a href="#">· 学界专家</a></li>
+                 <li><a href="#">· 工艺大师</a></li>
+                 <li><a href="#">· 行业专家</a></li>
+                 <li><a href="#">· 收藏家</a></li>
+               </ul>
+            </li>
+            <li class="line"></li>
+            <li class="nav_li1"><a href="#" class="nav_a">经典</a></li>
+            <li class="line"></li>
+            <li class="nav_li"><a href="#" class="nav_a">产品</a>
+               <ul class="x_ul">
+                 <li><a href="#">· 样式种类</a></li>
+                 <li><a href="#">· 红木保养</a></li>
+                 <li><a href="#">· 品牌关注</a></li>
+                 <li><a href="#">· 真假品鉴</a></li>
+               </ul>
+            </li>
+            <li class="line"></li>
+            <li class="nav_li"><a href="#" class="nav_a">导购</a>
+               <ul class="x_ul">
+                 <li><a href="#">· 海选导购</a></li>
+                 <li><a href="#">· 对比导购</a></li>
+                 <li><a href="#">· 导购宝典</a></li>
+               </ul>
+            
+            </li>
+            <li class="line"></li>
+            <li class="nav_li1"><a href="#" class="nav_a">专题</a></li>
+          </ul>
+    </div>
+    <div id="nav_b2" class="nav_b2"></div>
+   </div>
+  </div>
+</div>
+<!--二级页面分类导航-->
+
+<div class="clr"></div>
+<div class="srcollnew" style="width:978px;">
+            <span>热点资讯：</span>
+            <div id="demo">
+                <div id="indemo">
+                    <div id="demo1">
+                        
+                        <a href="/news/news_21755.html" target="_blank">
+                            刘云：油画家到国画家的角色转换</a>
+                        
+                        <a href="/news/news_21758.html" target="_blank">
+                            三问国宝重器皿方罍</a>
+                        
+                        <a href="/news/news_21763.html" target="_blank">
+                            《红楼梦》邮票小版张价格一周翻倍</a>
+                        
+                        <a href="/news/news_21762.html" target="_blank">
+                            2014年春拍纷纷落槌 艺术品市场回暖了吗?</a>
+                        
+                        <a href="/news/news_21735.html" target="_blank">
+                            春拍“阴霾”下的当代艺术行情 ：冰火两重天</a>
+                        
+                        <a href="/news/news_21626.html" target="_blank">
+                            邮市热点消退：整体现出“歇夏”征兆</a>
+                        
+                        <a href="/news/news_21670.html" target="_blank">
+                            评"丝绸之路"申遗:文化线路保护体系亟待建立</a>
+                        
+                        <a href="/news/news_21645.html" target="_blank">
+                            凌家滩遗址具古国雏形 中华文明史或提至5300年前</a>
+                        
+                        <a href="/news/news_21605.html" target="_blank">
+                            “申遗”成功不是目的，更不是政绩</a>
+                        
+                        <a href="/news/news_21716.html" target="_blank">
+                            一层薄绢：复活的古老帛画</a>
+                        
+                        <a href="/news/news_21686.html" target="_blank">
+                            估价4500万美元中提琴惨遭流拍</a>
+                        
+                        <a href="/news/news_21680.html" target="_blank">
+                            迪伦4页手稿拍出200万美元</a>
+                        
+                        <a href="/news/news_21641.html" target="_blank">
+                            齐白石《九虾图》拍得100万 曾赠送江友樵</a>
+                        
+                        <a href="/news/news_21633.html" target="_blank">
+                            湖南省博物馆欧洲玻璃艺术珍品展开幕</a>
+                        
+                    </div>
+                    <div id="demo2">
+                    </div>
+                </div>
+            </div>
+        </div>
+<script type="text/javascript">
+		<!--
+            var speed1 = 50;
+            var atab = document.getElementById("demo");
+            var atab1 = document.getElementById("demo1");
+            var atab2 = document.getElementById("demo2");
+            atab2.innerHTML = atab1.innerHTML;
+            function Marquee1() {
+                if (atab2.offsetWidth - atab.scrollLeft <= 0)
+                    atab.scrollLeft -= atab1.offsetWidth;
+                else {
+                    atab.scrollLeft++;
+                }
+            }
+            var MyMar1 = setInterval(Marquee1, speed1);
+            atab.onmouseover = function () { clearInterval(MyMar1) };
+            atab.onmouseout = function () { MyMar1 = setInterval(Marquee1, speed1) };
+		-->
+        </script>
+        
+        
+        
+<!---------------------------------------------------------------------------common header end------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------common main start------------------------------------------------------------------------------------->
+<!-- InstanceBeginEditable name="main" -->
+<!--main star-->
+<div class="main">
+ <div class="part_all">
+ 		<div class="part_all_l">
+        	<div class="jdt">
+                <div class="focus_img">
+                  <div class="big_area">
+                    <div class="big_img" id="con_1"></div>
+                    <div class="titlebg"></div>
+                    <h3 id="h2title"></h3>
+                    <div id="intro" style="dispaly:none;"></div>
+                  </div>
+                  <div class="thurmb" id="con_2"></div>
+                </div>
+            </div>
+			<script type="text/javascript"> 
+            var focusImg= new FocusImg();
+            focusImg.bigDiv="con_1";
+            focusImg.smallDiv="con_2";
+            focusImg.imgW=548;
+            focusImg.imgH=290;
+            focusImg.sTime=5000;
+            focusImg.titleDiv="h2title";
+             
+            var s = {};
+            s.bigimg="zhanlanyaowen/zlywimages/pic01.jpg";
+            s.title="jquery图片滚动插件";
+            s.intro="<span></span>";
+            s.url="#";
+            focusImg.imgList.push(s);
+             
+            var s = {};
+            s.bigimg="zhanlanyaowen/zlywimages/pic02.jpg";
+            s.title="jquery导航菜单";
+            s.intro="<span></span>";
+            s.url="#";
+            focusImg.imgList.push(s);
+             
+            var s = {};
+            s.bigimg="zhanlanyaowen/zlywimages/pic03.jpg";
+            s.title="jquery选项卡插件";
+            s.intro="<span></span>";
+            s.url="#";
+            focusImg.imgList.push(s);
+             
+            var s = {};
+            s.bigimg="zhanlanyaowen/zlywimages/pic04.jpg";
+            s.title="无缝滚动插件";
+            s.intro="<span></span>";
+            s.url="#";
+            focusImg.imgList.push(s);
+             
+            focusImg.init();
+            focusImg.autoPlay();
+            </script>
+			<div style="clear:both;"></div>
+        <!--收藏资讯 start-->
+            <div class="sczx">
+                  <div class="sczx_hd">
+                      <h3 class="sczx_h3">收藏资讯</h3><a class="zlyw_more" href="#">更多</a>
+                  </div>
+                  <div class="sczx_bd">
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/sczx_dt.jpg" /></a></dt>
+                          <dd>
+                              <a href="#">眼下踏入7月份，又到了钱币收藏爱
+                              好者收集新一年生肖币时间。不过
+                              记者近日走访深圳多家藏品销售的
+                              网点。。。</a>
+                          </dd>
+                      </dl>
+                      <ul>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                    </ul>
+                  </div>
+              </div>
+        <!--收藏资讯 end-->
+       <!--投资指南 start-->
+            <div class="tzzn">
+                  <div class="tzzn_hd">
+                      <h3 class="tzzn_h3">投资指南</h3><a class="zlyw_more" href="#">更多</a>
+                  </div>
+                  <div class="tzzn_bd">
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/sczx_dt.jpg" /></a></dt>
+                          <dd>
+                              <a href="#">眼下踏入7月份，又到了钱币收藏爱
+                              好者收集新一年生肖币时间。不过
+                              记者近日走访深圳多家藏品销售的
+                              网点。。。</a>
+                          </dd>
+                      </dl>
+                      <ul>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                    </ul>
+                  </div>
+              </div>
+        <!--投资指南 end-->
+       <!--藏品库 start-->
+            <div class="cpk">
+                  <div class="cpk_hd">
+                      <h3 class="cpk_h3">投资指南</h3><a class="zlyw_more" href="#">更多</a>
+                  </div>
+                  <div class="cpk_bd">
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/cpk_dt.jpg" /></a></dt>
+                          <dd>
+                              <a href="#">邮票具有收藏价值鞠躬</a><br />
+                              <span class="jiage">价格：待定</span>
+                         </dd>
+                      </dl>
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/cpk_dt.jpg" /></a></dt>
+                          <dd>
+                              <a href="#">邮票具有收藏价值鞠躬</a><br />
+                              <span class="jiage">价格：待定</span>
+                         </dd>
+                      </dl>
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/cpk_dt.jpg" /></a></dt>
+                          <dd>
+                              <a href="#">邮票具有收藏价值鞠躬</a><br />
+                              <span class="jiage">价格：待定</span>
+                         </dd>
+                      </dl>
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/cpk_dt.jpg" /></a></dt>
+                          <dd>
+                              <a href="#">邮票具有收藏价值鞠躬</a><br />
+                              <span class="jiage">价格：待定</span>
+                         </dd>
+                      </dl>
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/cpk_dt.jpg" /></a></dt>
+                          <dd>
+                              <a href="#">邮票具有收藏价值鞠躬</a><br />
+                              <span class="jiage">价格：待定</span>
+                         </dd>
+                      </dl>
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/cpk_dt.jpg" /></a></dt>
+                          <dd>
+                              <a href="#">邮票具有收藏价值鞠躬</a><br />
+                              <span class="jiage">价格：待定</span>
+                         </dd>
+                      </dl>
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/cpk_dt.jpg" /></a></dt>
+                          <dd>
+                              <a href="#">邮票具有收藏价值鞠躬</a><br />
+                              <span class="jiage">价格：待定</span>
+                         </dd>
+                      </dl>
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/cpk_dt.jpg" /></a></dt>
+                          <dd>
+                              <a href="#">邮票具有收藏价值鞠躬</a><br />
+                              <span class="jiage">价格：待定</span>
+                         </dd>
+                      </dl>
+                  </div>
+              </div>
+        <!--藏品库 end-->
+        </div>
+ 		<div class="part_all_r">
+        <!--拍卖资讯 start-->
+        	<div class="pmzx">
+                <div class="pmzx_hd">
+                    <h3 class="pmzx_h3">拍卖资讯</h3><a class="zlyw_more" href="#">更多</a>
+                </div>
+                <div class="pmzx_bd">
+                		<ul>
+                			<li><a href="#">哪些邮票具有收藏价值</a></li>
+                			<li><a href="#">哪些邮票具有收藏价值</a></li>
+                			<li><a href="#">哪些邮票具有收藏价值</a></li>
+                			<li><a href="#">哪些邮票具有收藏价值</a></li>
+                			<li><a href="#">哪些邮票具有收藏价值</a></li>
+                			<li><a href="#">哪些邮票具有收藏价值</a></li>
+                			<li><a href="#">哪些邮票具有收藏价值</a></li>
+                			<li><a href="#">哪些邮票具有收藏价值</a></li>
+                			<li><a href="#">哪些邮票具有收藏价值</a></li>
+                		</ul>
+                </div>
+            </div>
+        <!--拍卖资讯 end-->
+        <!--活动信息 start-->
+            <div class="hdxx">
+                  <div class="hdxx_hd">
+                      <h3 class="hdxx_h3">活动信息</h3><a class="zlyw_more" href="#">更多</a>
+                  </div>
+                  <div class="hdxx_bd">
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/hdxx_dt.jpg" /></a></dt>
+                          <dd>
+                              <h4>2014年春季香港艺术品大型交</h4>
+                              <p>易会全球火热香港商会推荐会相遇2014年4月 <a class="xiangxi" href="#">[详细]</a> </p>
+                          </dd>
+                      </dl>
+                      <ul>
+                        <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                    </ul>
+                  </div>
+              </div>
+        <!--活动信息 end-->
+        <!--收藏知识 start-->
+            <div class="sczs">
+                  <div class="sczs_hd">
+                      <h3 class="sczs_h3">收藏知识</h3><a class="zlyw_more" href="#">更多</a>
+                  </div>
+                  <div class="sczs_bd">
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/hdxx_dt.jpg" /></a></dt>
+                          <dd>
+                              <h4>2014年春季香港艺术品大型交</h4>
+                              <p>易会全球火热香港商会推荐会相遇2014年4月 <a class="xiangxi" href="#">[详细]</a> </p>
+                          </dd>
+                      </dl>
+                      <ul>
+                        <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                          <li><a href="#">哪些邮票具有收藏价值</a></li>
+                    </ul>
+                  </div>
+              </div>
+        <!--收藏知识 end-->
+        
+        </div>
+ </div>
+ <div class="part_02">
+
+        <!--书画古玩 start-->
+            <div class="shgw">
+                  <div class="shgw_hd">
+                      <h3 class="shgw_h3">收藏知识</h3><a class="zlyw_more" href="#">更多</a>
+                  </div>
+                  <div class="shgw_bd">
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/gwsh_dt.jpg" /></a></dt>
+                          <dd>
+                              <ul>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                            </ul>
+                          </dd>
+                      </dl>
+                  </div>
+              </div>
+        <!--书画古玩 end-->
+        <!--珠宝玉器 start-->
+            <div class="zbyq">
+                  <div class="zbyq_hd">
+                      <h3 class="zbyq_h3">珠宝玉器</h3><a class="zlyw_more" href="#">更多</a>
+                  </div>
+                  <div class="zbyq_bd">
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/gwsh_dt.jpg" /></a></dt>
+                          <dd>
+                              <ul>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                            </ul>
+                          </dd>
+                      </dl>
+                  </div>
+              </div>
+        <!--珠宝玉器 end-->
+        <!--油画雕塑 start-->
+            <div class="yhds">
+                  <div class="yhds_hd">
+                      <h3 class="yhds_h3">油画雕塑</h3><a class="zlyw_more" href="#">更多</a>
+                  </div>
+                  <div class="yhds_bd">
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/gwsh_dt.jpg" /></a></dt>
+                          <dd>
+                              <ul>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                            </ul>
+                          </dd>
+                      </dl>
+                  </div>
+              </div>
+        <!--油画雕塑 end-->
+        <!--红木家具 start-->
+            <div class="hmjj">
+                  <div class="hmjj_hd">
+                      <h3 class="hmjj_h3">红木家具</h3><a class="zlyw_more" href="#">更多</a>
+                  </div>
+                  <div class="hmjj_bd">
+                      <dl>
+                          <dt><a href="#"><img src="zhanlanyaowen/zlywimages/gwsh_dt.jpg" /></a></dt>
+                          <dd>
+                              <ul>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                                  <li><a href="#">珍贵小邮票拍出950万美元:成世界最珍贵</a></li>
+                            </ul>
+                          </dd>
+                      </dl>
+                  </div>
+              </div>
+        <!--红木家具 end-->
+ </div>
+ </div>
+  <div  style="height:40px;"></div>
+<!--main end-->
+<!-- InstanceEndEditable -->
+<!---------------------------------------------------------------------------common main end------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------common footer start------------------------------------------------------------------------------------->
+<!--footer star-->
+<div class="footer">
+<div class="clr"></div> 
+	<div class="hzmt">
+    	<div class="hzmt_list">
+            <div class="hz_list">
+            <a href="#"><img src="skin/images/rmrb.jpg" /></a>
+            <a href="#"><img src="skin/images/bwgxh.jpg" /></a>
+            <a href="#"><img src="skin/images/zgmsjxh.jpg" /></a>
+            <a href="#"><img src="skin/images/hxysw.jpg" /></a>
+            <a href="#"><img src="skin/images/zywlogo.jpg" /></a>
+            </div>
+        </div>
+        <div class="clr"></div>
+        <div class="yqlj">
+        <a href="#">卓克艺术网</a><a href="#">搜藏网</a><a href="#">中国书画艺术网</a><a href="#">中国书画网</a><a href="#">画家村</a><a href="#">九州钱币收藏网</a><a href="#">中国山水画艺术网</a><a href="#">炎黄网</a><a href="#">石首论坛</a><a href="#">油画</a><a href="#">景天文化艺术网</a><a href="#">文博艺术网</a><a href="#">雅昌艺术网</a><a href="#">北京文艺网</a>
+        </div>
+  </div>
+        <div class="clr"></div>
+        <div class="xjxc">
+    	<ul>
+        	<li><a href="#">关于我们</a></li>
+        	<li><a href="#">招聘信息</a></li>
+        	<li><a href="#">广告服务</a></li>
+        	<li><a href="#">网站地图</a></li>
+        	<li><a href="#">百度地图</a></li>
+        	<li><a href="#">人民艺术网</a></li>
+        	<li><a href="#">人民艺购</a></li>
+        	<li><a href="#">新闻资讯</a></li>
+        	<li><a href="#">精品栏目</a></li>
+        	<li><a href="#">精彩专题</a></li>
+        	<li><a href="#">限时活动</a></li>
+        	<li style="background:none;"><a href="#">精彩人物</a></li>
+        </ul>
+    </div>
+    <div class="clr"></div>
+    <div class="db_box">
+        <p><span class="youbian">总编信箱： songpengchao@peoplearts.cn   </span><span class="zongji">新闻热线：  010-57138712</span></p>
+        <p>媒介QQ：718656744 &nbsp;&nbsp;&nbsp;&nbsp;地址：  北京市朝阳区周庄山水文园219号楼1层101号 &nbsp;&nbsp;&nbsp;&nbsp;邮编：100000</p>
+        <p>人民艺术网（peoplearts.cn）是目前信息量最大最广最权威的艺术类门户网站，成立于2012年，隶属于人民日报社。网站创建依托于人民日报社官方庞大的信息资<br />源库，
+现经过2年发展，已成为广大艺术爱好者获取专业艺术资讯的首选媒体平台，以及古玩、书画、珠宝、玉器等艺术收藏门类最权威、最时效和最真实的信息平台.<br />
+人民艺术网版权所有: Copyright 2013 北京山水百汇文化投资有限公司&nbsp;&nbsp;&nbsp;&nbsp; 备案号：京ICP备13013606号</p>
+        <div class="db_box_right">
+        <div class="dingyue">
+       	<div class="sryx">
+            <span>请输入您的Email地址</span>
+          </div>
+            <div class="dy ">
+            <input  type="text" class="dyk"/>
+            <a href="#">订阅</a>
+            </div>
+        </div>
+            	
+        </div>
+    </div>
+    <div class="clr"></div>
+    
+</div>
+<!--footer end-->
+<!---------------------------------------------------------------------------common footer end------------------------------------------------------------------------------------->
+</body>
+<!-- InstanceEnd --></html>

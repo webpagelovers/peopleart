@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***************************************************************con start********************************************************************/
+#index_biaoti{width:100%;height:940px;position:absolute;z-index:100010;background:#000 url(../images/bfh_index/bfh_index_biaoti.jpg) no-repeat center 0px;_display:none;}
+#jrym{width: 200px; height: 75px;background:pink;left: 45%;top: 710px; position: absolute;z-index: 10001;background:url(../images/bfh_index/jrym.jpg) no-repeat 58px 14px;cursor:pointer;}
+#con{background:#000;}
+#con ul{width:100%;height:940px;overflow:hidden;position:relative;}
+#con img{display:block;width:100%;float:left;}
+#con li{display:none;}
+#con li.current{display:block;}
+#head a{_text-decoration:none;_cursor:pointer;}
+/***************************************************************con end********************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

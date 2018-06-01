@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>100幅画项目投资投资方式</title>
+<link rel="stylesheet" href="css/common.css" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="ddlevelsfiles/ddlevelsmenu.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="css/touzixiangmuerji.css" /> 
+<script type="text/javascript" src="js/slide.js"></script> 
+<script type="text/javascript">
+$(function(){
+	var oBrowseHeight=document.documentElement.clientHeight;
+	$("#con").height(oBrowseHeight);
+	$("#footer").css({top:oBrowseHeight-40});
+})
+</script> 
+<script type="text/javascript"> 
+	$(document).ready(function(){
+		$('#s').focusin(function(){
+			var val = $(this).val();
+			if(val == '请输入搜索内容...'){
+				$(this).val('');
+			}
+		});
+		
+		$('#s').focusout(function(){
+			var val = $(this).val();
+			if(val == ''){
+				$(this).val('请输入搜索内容...');
+			}
+		});
+		
+		$('#weeknews_triger').click(function(){
+			$('#weeknews').animate({
+				height: '293'
+			});
+			$('#medianews').animate({
+				height: '40'
+			});
+		});
+		
+		$('#medianews_triger').click(function(){
+			$('#weeknews').animate({
+				height: '40'
+			});
+			$('#medianews').animate({
+				height: '293'
+			});
+		});
+		
+		$('.link2home').hover(function(){
+			$(this).css('background-position','0 -30px');
+			$('body').animate({backgroundPosition: '0 0'});
+                        $('#header_top_nav a').hide();
+                        $('#header_top_nav a.more').show();
+			$('#header_top_nav').animate({height: 20});
+		});
+                
+                $('.imp_news').hover(function(){
+			$('body').animate({backgroundPosition: '0 0'});
+                        $('#header_top_nav a').hide();
+                        $('#header_top_nav a.inews').show();
+			$('#header_top_nav').animate({height: 20});
+		});
+                
+                 $('.camp_news').hover(function(){
+			$('body').animate({backgroundPosition: '0 0'});
+                        $('#header_top_nav a').hide();
+                        $('#header_top_nav a.cnews').show();
+			$('#header_top_nav').animate({height: 20});
+		});
+	
+		$('#slides').slides({
+			preload: true,
+			preloadImage: 'images/ajax-loader.gif',
+			effect: 'slide',
+			play: 5000,
+			pause: 2500,
+			hoverPause: true,
+			animationStart: function(current){
+				$('.caption').animate({
+					bottom:0,
+					right: 40,
+					opacity: 0
+				},200);
+			},
+			animationComplete: function(current){
+				$('.caption').animate({
+					bottom:20,
+					right: 40,
+					opacity: 1
+				},200);
+			},
+			slidesLoaded: function() {
+				$('.caption').animate({
+					bottom:20,
+					right: 40,
+					opacity: 1
+				},200);
+			}
+		});
+                
+                 $('#wrapper').bind("mouseleave",function(){
+                      $('#header_top_nav').animate({height: 0});
+                     $('body').animate({backgroundPosition: '0 -20px'});
+              });
+	});
+	
+</script> 
+
+<!--[if IE 6]>
+<script src="js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+<script type="text/javascript">
+   DD_belatedPNG.fix('*'); 
+</script>
+<![endif]-->
+</head>
+
+
+<body>
+<!----------------------------------------------------------------------head start------------------------------------------------------------------------------>
+<div id="head">
+  <div class="head">
+    <div class="logo"> <a href="#"><img src="images/bfh_index/bfh_logo.png" width="154" height="31" /></a> </div>
+    <div class="nav">
+              <div id="ddtopmenubar" class="mattblackmenu">
+              <ul>
+              <li><a href="#"><div class="nav_zw">首页</div><div class="nav_yw">HOME</div></a></li>
+              <li><a href="#" rel="ddsubmenu1"><div class="nav_zw">项目介绍</div><div class="nav_yw">INVESTMENT PROJECTS</div></a></li>
+              <li><a href="#" rel="ddsubmenu2"><div class="nav_zw">投资类别</div><div class="nav_yw">PRODUCT CATEGORIES</div></a></li>
+              <li><a href="#" rel="ddsubmenu3"><div class="nav_zw">艺术家</div><div class="nav_yw">ARTIST</div></a></li>
+              <li><a href="#" rel="ddsubmenu4"><div class="nav_zw">联系我们</div><div class="nav_yw">CONTACT US</div></a></li>
+              </ul>
+              </div>
+              
+              <script type="text/javascript">
+              ddlevelsmenu.setup("ddtopmenubar", "topbar") //ddlevelsmenu.setup("mainmenuid", "topbar|sidebar")
+              </script>
+              
+              
+              <!--HTML for the Drop Down Menus associated with Top Menu Bar-->
+              <!--They should be inserted OUTSIDE any element other than the BODY tag itself-->
+              <!--A good location would be the end of the page (right above "</BODY>")-->
+              
+              <!--Top Drop Down Menu 1 HTML-->
+                    
+              
+              
+              <ul id="ddsubmenu1" class="ddsubmenustyle">
+              <li><a href="#">行业前景</a></li>
+              <li><a href="#">项目介绍</a></li>
+              <li><a href="#" style="line-height:20px;"><div style="height:15px;padding-top:5px;">投资方式</div><div style="font-size:11px;">(购买/理财)</div></a>
+              </li>
+              <li><a href="#">升值回报</a></li>
+              <li><a href="#">风险控制</a></li>
+              </ul>
+              
+              
+              <!--Top Drop Down Menu 2 HTML-->
+              
+              <ul id="ddsubmenu2" class="ddsubmenustyle">
+              <li><a href="#">书画/油画/雕塑</a>
+                <ul>
+                <li><a href="#" style="line-height:20px;"><div style="height:15px;padding-top:5px;">第一期</div><div style="font-size:11px;">6月21日</div></a></li>
+                <li><a href="#" style="line-height:20px;"><div  class="xmjsz" style="height:15px;padding-top:5px;">第二期</div><div  class="xmjsz" style="font-size:11px;">(敬请期待)</div></a></li>
+                </ul>
+              </li>
+              <li><a class="xmjsz"  href="#">陶瓷</a></li>
+              <li><a class="xmjsz"  href="#">明清家具</a></li>
+              <li><a class="xmjsz"  href="#">青铜器</a></li>
+              <li><a class="xmjsz"  href="#">玉器翡翠</a></li>
+              <li><a class="xmjsz"  href="#">金银珠宝</a></li>
+              <li><a class="xmjsz"  href="#">紫砂</a></li>
+              <li><a class="xmjsz"  href="#">杂项</a></li>
+              </ul>
+              
+              <!--Top Drop Down Menu 3 HTML-->
+              
+              <ul id="ddsubmenu3" class="ddsubmenustyle">
+              <li><a href="#">国内</a></li>
+              <li><a href="#">国外</a></li>
+              </ul>
+              
+              <!--Top Drop Down Menu 4 HTML-->
+              
+              <ul id="ddsubmenu4" class="ddsubmenustyle">
+              <li><a href="#">联系方式</a></li>
+              </ul>
+    </div>
+    <div class="search">
+      <input id="bfh_txt" type="" value="作者/作品名/类别" onblur="javascript:if (this.value=='') {this.value='作者/作品名/类别';}" onfocus="javascript:if (this.value=='作者/作品名/类别') this.value='';"/>
+      <button id="btn1"></button>
+    </div>
+    <div class="scfx">
+    	<div class="scbz"><a href="#">收藏本站</a></div>
+    </div>
+  </div>
+</div>
+<!----------------------------------------------------------------------head end------------------------------------------------------------------------------> 
+<!----------------------------------------------------------------------con start------------------------------------------------------------------------------>
+<div id="con">
+	<img class="con_img" src="images/bfh_index/con_img01.jpg" alt="" />
+    <div style="width:100%;height:180%;background:#000;position:absolute;z-index:-1;filter:alpha(opacity:50);opacity:0.5;"></div>
+<div id="tzxmej">
+      <div class="ca1_slide"> 
+            <div id="slider-wrapper"> 
+                <div id="slider-bg">				
+                        <div id="slider-photos"> 
+                            <div id="slides"> 
+                                <div class="slides_container"> 						 
+                                    <div class="slide"> 
+                                       <a href="#"><img src="images/xiangmutouzierji/xmtzy.jpg" width="1054" height="720" alt="第十八届全国大学生网球锦标赛暨全国高校“校长杯”网球比赛开幕"/></a> 
+                                    </div> 
+                                    <div class="slide"> 
+                                        <a href="#"><img src="images/xiangmutouzierji/xmtzy.jpg" width="1054" height="720" alt="第十三届全国大学生田径锦标赛开幕 人大学子男子百米专业组夺冠"/></a> 
+                                    </div> 
+                                    <div class="slide"> 
+                                       <a href="#"><img src="images/xiangmutouzierji/xmtzy.jpg" width="1054" height="720" alt=""/></a> 
+                                 </div> 
+                                    <div class="slide"> 
+                                     <a href="#"><img src="images/xiangmutouzierji/xmtzy.jpg" width="1054" height="720" alt="人大成立中国共产党历史与理论研究院 9名专家受聘任学术顾问"/></a> 
+                                   </div> 
+                  				</div>	
+                                <a href="#" class="prev"><img src="images/xiangmutouzierji/arrow-prev.png" width="30" height="70" alt="Arrow Prev" border="0"></a>
+                                <a href="#" class="next"><img src="images/xiangmutouzierji/arrow-next.png" width="30" height="70" alt="Arrow Next" border="0"></a>								
+    						</div> 
+            			</div> 
+            	</div> 
+        	</div> 
+        </div> 
+    </div>
+	<div style="text-align:center;clear:both"></div>
+</div>
+<!----------------------------------------------------------------------con end------------------------------------------------------------------------------>
+<!----------------------------------------------------------------------foot start------------------------------------------------------------------------------>
+<div id="footer">
+    <div class="footer">
+    	©2013 人民艺术网版权所有       <a href="#">关于我们</a>        <a href="#">广告服务</a>       <a href="#">百度地图</a>        <a href="#">人民艺术网</a>   <span class="music"></span>
+    </div>
+</div>
+<!----------------------------------------------------------------------foot end------------------------------------------------------------------------------>
+</body>
+</html>

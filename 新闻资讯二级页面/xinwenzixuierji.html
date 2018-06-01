@@ -1,0 +1,698 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="X-UA-Compatible" content="IE=7" /><meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><title>
+	新闻资讯
+</title><link href="http://www.peoplearts.cn/css/style.css" rel="stylesheet" type="text/css" /><link href="http://www.peoplearts.cn/css/xwzxcss/logo.css" rel="stylesheet" type="text/css" /><link href="http://www.peoplearts.cn/css/xwzxcss/xwzxerji.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://www.peoplearts.cn/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="http://www.peoplearts.cn/js/xwzxjs/xinwenzixui.js"></script>
+    <script src="http://www.peoplearts.cn/js/Public.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://www.peoplearts.cn/js/xwzxjs/tab.js"></script>
+    <script src="http://www.peoplearts.cn/js/xwzxjs/jquery.scrollpic.js" type="text/javascript"></script>
+    <script src="http://www.peoplearts.cn/js/Logoin.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://crossdomain.com/services.php?callback=jsonpCallback"></script>
+    <script type="text/javascript">
+        $(function () {
+            //图片精选
+            $('#scrollpic00').scrollpic({
+                defaultSpeed: 1000,   //默认滚动时间  点击按钮滚动时间
+                speed: 5000   //自动播放滚动时间
+            });
+        })
+    </script>
+    <script>
+        (function (d, D, v) {
+            d.fn.responsiveSlides = function (h) {
+                var b = d.extend({
+                    auto: !0, speed: 1E3, timeout: 7E3, pager: !1, nav: !1, random: !1, pause: !1, pauseControls: !1, prevText: "Previous", nextText: "Next", maxwidth: "", controls: "", namespace: "rslides",
+                    before: function () {
+                    },
+                    after: function () {
+                    }
+                }, h);
+                return this.each(function () {
+                    v++;
+                    var e = d(this), n, p, i, k, l, m = 0, f = e.children(), w = f.size(), q = parseFloat(b.speed), x = parseFloat(b.timeout), r = parseFloat(b.maxwidth), c = b.namespace, g = c + v, y = c + "_nav " + g + "_nav", s = c + "_here", j = g + "_on", z = g + "_s",
+						o = d("<ul class='" + c + "_tabs " + g + "_tabs' />"), A = { "float": "left", position: "relative" }, E = { "float": "none", position: "absolute" }, t = function (a) {
+						    b.before();
+						    f.stop().fadeOut(q, function () { d(this).removeClass(j).css(E) }).eq(a).fadeIn(q, function () {
+						        d(this).addClass(j).css(A);
+						        b.after();
+						        m = a;
+						    });
+						};
+                    b.random && (f.sort(function () { return Math.round(Math.random()) - 0.5; }), e.empty().append(f));
+                    f.each(function (a) { this.id = z + a; });
+                    e.addClass(c + " " + g);
+                    h && h.maxwidth && e.css("max-width", r);
+                    f.hide().eq(0).addClass(j).css(A).show();
+                    if (1 <
+						f.size()) {
+                        if (x < q + 100) return;
+                        if (b.pager) {
+                            var u = [];
+                            f.each(function (a) {
+                                a = a + 1;
+                                u = u + ("<li><a href='#' class='" + z + a + "'>" + a + "</a></li>");
+                            });
+                            o.append(u);
+                            l = o.find("a");
+                            h.controls ? d(b.controls).append(o) : e.after(o);
+                            n = function (a) { l.closest("li").removeClass(s).eq(a).addClass(s); };
+                        }
+                        b.auto && (p = function () {
+                            k = setInterval(function () {
+                                var a = m + 1 < w ? m + 1 : 0;
+                                b.pager && n(a);
+                                t(a);
+                            }, x);
+                        }, p());
+                        i = function () {
+                            if (b.auto) {
+                                clearInterval(k);
+                                p();
+                            }
+                        };
+                        b.pause && e.hover(function () { clearInterval(k); }, function () { i(); });
+                        b.pager && (l.bind("click", function (a) {
+                            a.preventDefault();
+                            b.pauseControls || i();
+                            a = l.index(this);
+                            if (!(m === a || d("." + j + ":animated").length)) {
+                                n(a);
+                                t(a);
+                            }
+                        }).eq(0).closest("li").addClass(s), b.pauseControls && l.hover(function () { clearInterval(k) }, function () { i(); }));
+                        if (b.nav) {
+                            c = "<a href='javascript:' class='" + y + " prev'>" + b.prevText + "</a><a href='javascript:' class='" + y + " next'>" + b.nextText + "</a>";
+                            h.controls ? d(b.controls).append(c) : e.after(c);
+                            var c = d("." + g + "_nav"), B = d("." + g + "_nav.prev");
+                            c.bind("click", function (a) {
+                                a.preventDefault();
+                                if (!d("." + j + ":animated").length) {
+                                    var c = f.index(d("." + j)),
+										a = c - 1, c = c + 1 < w ? m + 1 : 0;
+                                    t(d(this)[0] === B[0] ? a : c);
+                                    b.pager && n(d(this)[0] === B[0] ? a : c);
+                                    b.pauseControls || i();
+                                }
+                            });
+                            b.pauseControls && c.hover(function () { clearInterval(k) }, function () { i(); });
+                        }
+                    }
+                    if ("undefined" === typeof document.body.style.maxWidth && h.maxwidth) {
+                        var C = function () {
+                            e.css("width", "100%");
+                            e.width() > r && e.css("width", r);
+                        };
+                        C();
+                        d(D).bind("resize", function () { C(); });
+                    }
+                });
+            };
+        })(jQuery, this, 0);
+        $(function () {
+            $(".f426x240").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: true,
+                speed: 700
+            });
+            $(".f160x160").responsiveSlides({
+                auto: true,
+                pager: true,
+                speed: 700
+            });
+
+            GetNews(0, 'get');
+        });
+
+        function GetNews(index, type) {
+            var p = $("#p")[0].value;
+            var strindex = 0;
+            if (index == 99) {
+                strindex = parseInt($("#hindex")[0].value);
+            } else {
+                $("#hindex").val(index);
+                strindex = index;
+            }
+
+            $.ajax({
+                type: "POST",
+                url: "../Ajax/GetNews.ashx",
+                data: "p=" + p + "&index=" + strindex,
+                dataType: "json",
+                success: function (data) {
+                    if (data.length > 0) {
+                        var strHtml = "";
+                        for (var i = 0; i < data.length; i++) {
+                            strHtml += "<dl class='current'>";
+                            strHtml += "<dt>";
+                            strHtml += "<a href='http://www.peoplearts.cn/news/news_" + data[i].NewsInfoId + ".html'>";
+                            strHtml += "<img src='http://image.ssart.net/news/o/" + data[i].Img + "' style='width: 145px;height: 145px' />";
+                            strHtml += "</a></dt>";
+                            //      李康杰    修改  xwzx_list_bd_p01    区域显示文字长度 ；；；； 08-06-13:15 修改 文字显示长度  200变为250 ;     08-06 14:05  修改分享功能 
+                            strHtml += "<dd><a href='http://www.peoplearts.cn/news/news_" + data[i].NewsInfoId + ".html'>";
+                            strHtml += "<h3 class='xwzx_list_bd_h3'>" + data[i].Title + "</h3></a>";
+                            strHtml += "<p class='xwzx_list_bd_p01'><a href='http://www.peoplearts.cn/news/news_" + data[i].NewsInfoId + ".html'>" + (data[i].Summary.length > 250 ? data[i].Summary.substring(0, 250) : data[i].Summary) + "...</a></p>";
+                            strHtml += "<p class='xwzx_list_bd_p02'><span class='bd_p02_sp02 bdsharebuttonbox bdshare-button-style0-16'><a id='bds_more' class='bds_more' data-cmd ='more' href='#'>分享</a></span></p></dd></dl>";
+                        }
+                        if (type == "get") {
+                            $("#divNews")[0].innerHTML = strHtml;
+                        } else {
+                            $("#divNews")[0].innerHTML += strHtml;
+                        }
+                    } else {
+                        if (type == 'get') {
+                            $("#divNews")[0].innerHTML = "";
+                        }
+                    }
+                    if (data.length < 5) {
+                        $("#amore").hide();
+                    } else {
+                        $("#p")[0].value = parseInt($("#p")[0].value) + 1;
+                        $("#amore").show();
+                    }
+                },
+                error: function (err) {
+                    var strerr = 0;
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <!--登录-->
+    <div class="beijing">
+    </div>
+    <div class="shopdl" id="tuiding">
+        <div class="ztk">
+            <div class="logozt">
+                <div class="dlbt">
+                    <span>登录</span> <a href="#" class="cha" title="关闭窗口">
+                        <img src="http://www.peoplearts.cn/images/gbimages/shoplogo/cha.png" width="16" height="16" /></a>
+                </div>
+                <div class="clr">
+                </div>
+                <div class="sjdl">
+                    <div class="dlbd">
+                        <ul>
+                            <li><span>用户名/邮箱：</span><input id="loginName" type="text" class="yhm" /></li>
+                            <li><span>密码：</span><input id="loginpPwd" type="password" class="yhm" /></li>
+                            <li class="zc05">
+                                <input type="checkbox" name="vehicle" value="Bike1" class="zc3"><label>下次自动登陆</label></li>
+                            <li>
+                                <input type="button" class="tjdl" value="登&nbsp;&nbsp;陆" onclick="return checkLogin()" /><a
+                                    href="#">忘记密码？</a></li>
+                        </ul>
+                    </div>
+                    <div class="zcm">
+                        <p>
+                            还没有账号？<br />
+                            赶快免费注册一个吧!</p>
+                        <a href="http://www.peopleart.cc/Register.aspx?fromUrl=www.ssart.net" style="color: #fff;"
+                            target="_blank">免费注册</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--登录-->
+    <!--head star-->
+    <?xml version="1.0" encoding="gb2312"?>
+<div class="header">
+  <div class="h_box1">
+    <div class="index-width">
+      <div class="left">
+        <a href="http://www.peoplearts.cn">网站首页</a>
+        
+      </div>
+      <ul>
+        
+          <li class="li1">
+            <a href="#">登录</a>
+          </li>
+          <li>
+            <a href="http://www.peopleart.cc/Register.aspx?fromUrl=www.ssart.net" target="_blank">免费注册</a>
+          </li>
+                  
+        <li class="line"></li>
+        <li class="li2">
+          <a href="/about/About_1.html" target="_blank">帮助中心</a>
+        </li>
+        <li class="line"></li>
+        <li class="li3">
+          <a href=target="_blank" href="http://user.ssart.net/zhongzhuan.aspx">会员中心</a>
+        </li>
+        <li class="line"></li>
+        <li class="li4">
+          <a href="/about/About_1.html" target="_blank">联系客服</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+    <div class="clr">
+    </div>
+    <?xml version="1.0" encoding="gb2312"?>
+<div class="header">
+  <div class="h_box2">
+    <div class="index-width">
+      <div class='h_b_nav'>
+        <!--深背景加‘indexbg’类-->
+        <dl>
+          <dt>资讯</dt>
+          <dd class="dd1">
+            <ul>
+              <li>
+                <a href="/SecIndex/IndustryInfo.aspx" target="_blank">业界资讯</a>
+              </li>
+              <li>
+                <a href='/news/More_64_%e6%b5%b7%e5%a4%96%e8%97%8f%e5%93%81.html' target="_blank">海外藏品</a>
+              </li>
+              <li>
+                <a href="/ImgNews/ImgNewsIndex.aspx" target="_blank">图片新闻</a>
+              </li>
+              <li>
+                <a href="/SecIndex/PaiMai.aspx" target="_blank">拍卖</a>
+              </li>
+              <li>
+                <a href="/SecIndex/jigou.aspx" target="_blank">机构</a>
+              </li>
+              <li>
+                <a href="/SecIndex/ZhanLanYaoWen.aspx" target="_blank">展览要闻</a>
+              </li>
+              <li>
+                <a href="/SecIndex/RenWuGuanDian.aspx" target="_blank">人物观点</a>
+              </li>
+              <li>
+                <a href="/topic/list.aspx" target="_blank">独家专题</a>
+              </li>
+              <li>
+                <a href="/sp/VideoIndex.aspx" target="_blank">视频</a>
+              </li>
+              <li>
+                <a href="/SecIndex/XueShu.aspx" target="_blank">学术</a>
+              </li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>收藏</dt>
+          <dd class="dd2">
+            <ul>
+              <li>
+                <a href="/GuWanShuHua/GuWanShuHua.aspx" target="_blank">古玩收藏</a>
+              </li>
+              <li>
+                <a href="/HuiHuaDiaoSu/HuiHuaDiaoSuIndex.aspx" target="_blank">绘画雕塑</a>
+              </li>
+              <li>
+                <a href="/SecIndex/CiQiJinSha.aspx" target="_blank">瓷器金砂</a>
+              </li>
+              <li>
+                <a href="/TongQiFoXiang/TongQiFoXiang.aspx" target="_blank">铜器佛像</a>
+              </li>
+              <li>
+                <a href="/SecIndex/ZhongWaiYouPiao.aspx" target="_blank">中外邮票</a>
+              </li>
+              <li>
+                <a href="/SecIndex/ZhuBaoYuQi.aspx" target="_blank">珠宝玉器</a>
+              </li>
+              <li>
+                <a href="/SecIndex/DangDaiYiShu.aspx" target="_blank">当代艺术</a>
+              </li>
+              <li>
+                <a href="/SecIndex/ArtPhotography.aspx" target="_blank">摄影部落</a>
+              </li>
+              <li>
+                <a href="/SecIndex/HongMuJiaJu.aspx" target="_blank">红木家具</a>
+              </li>
+              <li>
+                <a href="/SecIndex/CaoGenClub.aspx" target="_blank">草根藏宝</a>
+              </li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>频道</dt>
+          <dd class="dd3">
+            <ul>
+              <li>
+                <a href="/SecIndex/IndustryInfo.aspx" target="_blank">论坛</a>
+              </li>
+              <li>
+                <a href="/SecIndex/Blog.aspx" target="_blank">博客</a>
+              </li>
+              <li>
+                <a href="/SecIndex/Artist.aspx" target="_blank">艺术家</a>
+              </li>
+              <li class="pr15">
+                <a href="/SecIndex/HuoDong.aspx" target="_blank">活动</a>
+              </li>
+              <li>
+                <a href="http://weibo.com/ssart123">微博</a>
+              </li>
+              <li>
+                <a href="http://www.peopleart.cc" target="_blank">艺购</a>
+              </li>
+              <li>
+                <a href="/SecIndex/ZuoPinGuan.aspx" target="_blank">作品馆</a>
+              </li>
+              <li>
+                <a href="#">人民艺搜</a>
+              </li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="clr">
+    </div>
+    <!--微信微博star-->
+    <?xml version="1.0" encoding="gb2312"?>
+<div class="header">
+  <div class="h_box5">
+    <div class="index-width">
+      <div class="boxA">
+       <div class="se_box2">
+          <ul>
+            <li class="ico1"><a>收听网站微信</a>
+              <p style="display: none;">
+                <img src='http://www.peoplearts.cn/images/gbimages/weixin.jpg'>
+                  请扫描二维码
+                </p>
+            </li>
+            <li class="ico2"><a>收听网站微博</a>
+             <p style="display: none;">
+               <img src="http://www.peoplearts.cn/images/gbimages/weixin.jpg">
+               请扫描二维码
+             </p>
+            </li>
+          </ul>
+        </div>
+       <div class="se_box1">
+         <div class="l_Search"><input type="text" onblur="javascript:if (this.value=='') {this.value='资讯 /图片/专题';}" onfocus="javascript:if (this.value=='资讯 /图片/专题') this.value='';" value="资讯 /图片/专题" class="input_text"><input type="button" class="input_button" name=""></div>
+         <div class="keybox"><a href="#">精品专题</a><a href="#">热点人物</a></div>
+       </div>
+      </div> 
+    </div>
+  </div>
+</div>
+    <div class="clr">
+    </div>
+    <!--微信微博end-->
+    <div class="header">
+  <div class="h_box8">
+    <div class="index-width">
+       <div class="logo">
+         <div>
+           <p class="tit">
+             <span>
+               <a>
+                 新闻资讯
+               </a>
+             </span>
+           </p>
+         </div>  
+       </div>      
+       <div class="add">
+         <!--<embed width="727" height="70" wmode="Opaque" src="../flash/xlogo.swf">-->
+         <a href="http://www.ssgw.com.cn/" target='_blank'><img src="http://www.peoplearts.cn/images/gbimages/ssgwad.gif" ></a>
+       </div>
+    </div>
+  </div>
+</div>
+
+    <div class="clr">
+    </div>
+    <div class='header'><div class='h_box4'><div class='nav_b1'><div class='index-width'><ul class='nav_ul'><li class='nav_li1'><a class='nav_a on' href='http://peoplearts.cn'>首页</a></li><li class='line'></li><li class='nav_li1'><a class='nav_a on' href='#'>国内</a></li><li class='line'></li><li class='nav_li1'><a class='nav_a on' href='#'>国际</a></li><li class='line'></li><li class='nav_li1'><a class='nav_a on' href='http://www.peoplearts.cn/SecIndex/ZhanLanYaoWen.aspx'>展览</a></li><li class='line'></li><li class='nav_li1'><a class='nav_a on' href='http://www.peoplearts.cn/SecIndex/PaiMai.aspx'>拍卖</a></li><li class='line'></li><li class='nav_li1'><a class='nav_a on' href='http://www.peoplearts.cn/GuWanShuHua/GuWanShuHua.aspx'>收藏</a></li><li class='line'></li><li class='nav_li1'><a class='nav_a on' href='http://www.peoplearts.cn/sp/VideoIndex.aspx'>视频</a></li><li class='line'></li><li class='nav_li1'><a class='nav_a on' href='http://www.peoplearts.cn/topic/list.aspx'>专题</a></li><li class='line'></li></ul></div><div id='nav_b2' class='nav_b2' style='display: none;'></div></div></div></div><div class="clr"></div>
+    <div class="clr">
+    </div>
+    <!--head end-->
+    <!--main star-->
+    <div class="main">
+        <!--广告一 star-->
+        <div class="gg01">
+            <div class='gg_l'><dl><dt><a href='/news/news_23047.html' target='_blank'><img src='http://image.ssart.net/news/97/201407/30/v_14370808396.jpg'></a></dt><dd><a href='/news/news_23047.html' target='_blank'><h3 class='gg_l_h3'>未来十年艺术市场谁主沉浮</h3></a><p class='gg_l_p'><a href='/news/news_23047.html' target='_blank'>艺术品并非生活必需品，惟有当经济发展...</a></p></dd></dl></div>
+        </div>
+        <!--广告一 end-->
+        <div class="clr">
+        </div>
+        <div class="part_all">
+            <div class="part_all_l">
+                <div class="jdt">
+                    <div class="new_banner">
+                        <ul class='rslides f426x240 rslides1'><li id='rslides1_s0' style='display: list-item; float: left; position: relative;' class='rslides1_on'><a target='_blank' href='http://www.peoplearts.cn/ImgNews/ImgNewsZhongDuan.aspx?newsId=192'><img width='650' src='http://image.ssart.net/NewsImg/597/201408/06/v_14025255241.jpg' title='芬兰艺术家雕塑作品'></a></li><li id='rslides1_s0' style='display: list-item; float: left; position: relative;' class='rslides1_on'><a target='_blank' href='http://www.peoplearts.cn/ImgNews/ImgNewsZhongDuan.aspx?newsId=178'><img width='650' src='http://image.ssart.net/NewsImg/597/201407/31/v_18263499650.jpg' title='抓拍瞬间的惊世之美'></a></li><li id='rslides1_s0' style='display: list-item; float: left; position: relative;' class='rslides1_on'><a target='_blank' href='http://www.peoplearts.cn/ImgNews/ImgNewsZhongDuan.aspx?newsId=96'><img width='650' src='http://image.ssart.net/NewsImg/597/201407/31/v_17132854150.jpg' title='朝鲜绘画团队画笔下不一样风格的中国'></a></li><li id='rslides1_s0' style='display: list-item; float: left; position: relative;' class='rslides1_on'><a target='_blank' href='http://www.peoplearts.cn/ImgNews/ImgNewsZhongDuan.aspx?newsId=85'><img width='650' src='http://image.ssart.net/NewsImg/597/201407/21/v_15432056239.jpg' title='仙境漫舞：钢丝缠绕成天使雕塑'></a></li></ul>
+                    </div>
+                </div>
+                <div class="xwzx_list_hd">
+                    <ul>
+                        <li class="current"><a href="javascript:;">全部</a></li>
+                        <li><a href="javascript:;">国内</a></li>
+                        <li><a href="javascript:;">国际</a></li>
+                        <li><a href="javascript:;">展览</a></li>
+                        <li><a href="javascript:;">拍卖</a></li>
+                        <li><a href="javascript:;">收藏</a></li>
+                        <li><a href="javascript:;">视频</a></li>
+                        <li><a href="javascript:;">专题</a></li>
+                    </ul>
+                    <input type="hidden" id="p" value="1" />
+                    <input type="hidden" id="hindex" value="" />
+                </div>
+                <div id="divNews" class="xwzx_list_bd current">
+                   
+                </div>
+                <div class="showmore">
+                    <a id="amore" href="javascript:GetNews(99,'more')">点击加载更多</a></div>
+            </div>
+            <div class="part_all_r">
+                <!--要闻 start-->
+                <div class="main_news">
+                    <div class='main_news_list'><a href='/news/news_23142.html' target='_blank'><h3>春拍报告：艺术品投资收益风险系数排行</h3></a><p><a href='/news/news_23142.html' target='_blank'>是什么吸引越来越多的人进入艺术品市场?是艺术品保值增......</a></p></div><div class='main_news_list'><a href='/news/news_23137.html' target='_blank'><h3>邦瀚斯将上拍阿旺桥风景画：现高更往事</h3></a><p><a href='/news/news_23137.html' target='_blank'>邦瀚斯拍卖行将于11月17日在伦敦举办晚间拍卖会。届时......</a></p></div><div class='main_news_list'><a href='/news/news_23127.html' target='_blank'><h3>2014“青年艺术100”展将于8月中旬开展</h3></a><p><a href='/news/news_23127.html' target='_blank'> 2014年度“青年艺术100”准备工作正在紧张有序，如火......</a></p></div><div class='main_news_list'><a href='/news/news_23121.html' target='_blank'><h3>苏富比半年报 定位经营战略挖掘低价拍品</h3></a><p><a href='/news/news_23121.html' target='_blank'>本月，苏富比拍卖公司公布了2014年上半年的拍卖情况，......</a></p></div>
+                </div>
+                <!--要闻 end-->
+                <!--人物周刊 start-->
+                <div class="rwzk">
+                    <h3 class="title_h3">
+                        <span class="title_sp_l">一周人物周刊</span><span class="title_sp_r"><a href="#">更多 >></a></span></h3>
+                    <div class="rwzk_bd">
+                        <dl><dt><a href='/news/news_23133.html' target='_blank'><img src='http://image.ssart.net/news/97/201407/31/v_14200985936.jpg' /></a></dt><dd><h3 class='rwzk_dd_h3'>创作最大问题是感情造假</h3><p class='rwzk_dd_p'><a href='/news/news_23133.html' target='_blank'>?一个画了25年画的人，却始终游离于主流美术圈外;一个敢于把上海展览中心中......</a></p></dd></dl><ul><li><a href='/news/news_23087.html' target='_blank'>书法 我们应有的选择</a></li><li><a href='/news/news_22902.html' target='_blank'>依法给收藏出路</a></li><li><a href='/news/news_23129.html' target='_blank'>收藏家不能没账本</a></li></ul>
+                    </div>
+                </div>
+                <!--人物周刊 end-->
+                <!--专题 start-->
+                <div class="zt">
+                    <h3 class="title_h3">
+                        <span class="title_sp_l">专题</span><span class="title_sp_r"><a href="#">更多 >></a></span></h3>
+                    <div class="zt_bd">
+                        <ul>
+                            <li><a href='http://www.peoplearts.cn/theme/srbwg/ ' target='_blank'><img src='http://image.ssart.net/Topic/o/201407/01/t_18110438915.jpg' title='私人博物馆·探索之路：透析运营现状及问题 展望前景与未来' /></a></li><li><a href='http://www.peoplearts.cn/theme/hmjj/ ' target='_blank'><img src='http://image.ssart.net/Topic/o/201407/01/t_18115941636.jpg' title='中华文化传承之红木家具：了解前世今生 分析市场发展趋势' /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--专题 end-->
+                <!--图片精选 start-->
+                <div class="tpjx">
+                    <h3 class="title_h3">
+                        <span class="title_sp_l">图片精选</span><span class="title_sp_r"><a href="#">更多 >></a></span></h3>
+                    <div class="tpjx_bd">
+                        <div class="scrollMap" id="scrollpic00">
+                            <span class="slidePre"><a href="javascript:void(0);" title="上一页"></a></span>
+                            <div class="picWrap">
+                                <ul class="tpjx_bd_ul">
+                                    <li class='' style='left: 286px;'><a target='_blank' href='http://www.peoplearts.cnImgNews/ImgNewsZhongDuan.aspx?newsId=81'><img src='http://image.ssart.net/NewsImg/597/201407/21/v_13563977437.jpg'></a><p><a target='_blank' href='http://www.peoplearts.cnImgNews/ImgNewsZhongDuan.aspx?newsId=81'>牛奶泼出的性感女郎摄影</a></p></li>
+                                </ul>
+                            </div>
+                            <span class="slideNext"><a href="javascript:void(0);" title="下一页"></a></span>
+                        </div>
+                    </div>
+                </div>
+                <!--图片精选 end-->
+                
+                <div class="news_ad">
+                    <img src="http://www.peoplearts.cn/images/gbimages/news_ad284.jpg" />
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    <!--main end-->
+    <!--footer star-->
+    <?xml version="1.0" encoding="gb2312"?>
+<div class="footer">
+  <!--李康杰增加div class =clr 08-04 13:18-->
+  <div class="clr">
+  </div>
+  <div class="hzmt">
+    <div class="hzmt_list">
+      <div class="hz_list">
+        <a href="http://www.people.com.cn/" target="_blank">
+          <img src="http://www.peoplearts.cn/images/gbimages/rmrb.jpg" />
+        </a>
+        <a href="http://www.chinamuseum.org.cn/index.html" target="_blank">
+          <img src="http://www.peoplearts.cn/images/gbimages/bwgxh.jpg"  />
+        </a>
+        <a href="http://www.caanet.org.cn/" target="_blank">
+          <img src="http://www.peoplearts.cn/images/gbimages/zgmsjxh.jpg"  />
+        </a>
+        <a href="http://www.artsweb.cn/" target="_blank">
+          <img src="http://www.peoplearts.cn/images/hxysw.jpg"  />
+        </a>
+        <a href="http://www.artsbuy.com/" target="_blank">
+          <img src="http://www.peoplearts.cn/images/zywlogo.jpg" />
+        </a>
+      </div>
+    </div>
+    <div class="clr"></div>
+    <div class="yqlj">
+      
+				<a href="http://www.artx.cn/" style="font-size: 14px;" target="_blank">
+        艺术中国
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://art.dahe.cn/" style="font-size: 14px;" target="_blank">
+        大河美术网
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.ysjvip.com/" style="font-size: 14px;" target="_blank">
+        中国书画艺术网
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.zgsshw.cn/" style="font-size: 14px;" target="_blank">
+        中国山水画艺术网
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.chinashj.com/" style="font-size: 14px;" target="_blank">
+        中国书画网
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.artron.net/" style="font-size: 14px;" target="_blank">
+        雅昌艺术网
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.soocang.com/" style="font-size: 14px;" target="_blank">
+        搜藏网
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.sh1188.com/" style="font-size: 14px;" target="_blank">
+        画家村
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.icoin.cn/" style="font-size: 14px;" target="_blank">
+        九州钱币收藏网
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.beibj.com" style="font-size: 14px;" target="_blank">
+        炎黄网
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.5jss.com/forum.php" style="font-size: 14px;" target="_blank">
+        石首论坛
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.artsb2c.cn/" style="font-size: 14px;" target="_blank">
+        油画
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.jingtianwenhua.com/" style="font-size: 14px;" target="_blank">
+        景天文化艺术网
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.wbshsc.com/" style="font-size: 14px;" target="_blank">
+        文博艺术网
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.artsbj.com/" style="font-size: 14px;" target="_blank">
+        北京文艺网
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.ssswh.com" style="font-size: 14px;" target="_blank">
+        寿山石文化网
+      </a>&nbsp;&nbsp;
+      
+				<a href="http://www.zhuokearts.com " style="font-size: 14px;" target="_blank">
+        卓克艺术网
+      </a>&nbsp;&nbsp;
+      
+    </div>
+  </div>
+  <div class="clr"></div>
+  <div class="xjxc">
+    <ul>
+      <li>
+        <a href="/about/About_1.html" target="_blank">关于我们</a>
+      </li>
+      <li>
+        <a href="/about/About_2.html" target="_blank">招聘信息</a>
+      </li>
+      <li>
+        <a href="/about/About_3.html" target="_blank">广告服务</a>
+      </li>
+      <li>
+        <a href="/about/About_4.html" target="_blank">网站地图</a>
+      </li>
+      <li>
+        <a href="/about/About_7.html" target="_blank">友情链接</a>
+      </li>
+      <li>
+        <a href=""
+          http://www.peoplearts.cn">人民艺术网
+        </a>
+      </li>
+      <li class="last">
+        <a href="http://peopleart.cc" target="_blank">人民艺购</a>
+      </li>
+      <li>
+        <a href="../SecIndex/IndustryInfo.aspx" target="_blank">新闻资讯</a>
+      </li>
+      <li>
+        <a href="../ImgNews/ImgNewsIndex.aspx" target="_blank">精品栏目</a>
+      </li>
+      <li>
+        <a href="../topic/list.aspx" target="_blank">精彩专题</a>
+      </li>
+      <li>
+        <a href="../SecIndex/HuoDong.aspx" target="_blank">限时活动</a>
+      </li>
+      <li style="background:none;">
+        <a href="../SecIndex/Artist.aspx" target="_blank">精彩人物</a>
+      </li>
+    </ul>
+  </div>
+  <div class="clr"></div>
+  <div class="db_box">
+    <p>
+      <span class="youbian">总编信箱： songpengchao@peoplearts.cn  </span> <!--李康杰修改邮箱 08-04 13:17-->
+      <span class="zongji">新闻热线：  010-57138712</span>
+    </p>
+    <p>媒介QQ：718656744 &nbsp;&nbsp;&nbsp;&nbsp;地址：  北京市朝阳区周庄山水文园219号楼1层101号 &nbsp;&nbsp;&nbsp;&nbsp;邮编：100000</p>
+    <p>
+      人民艺术网（peoplearts.cn）是目前信息量最大最广最权威的艺术类门户网站，成立于2012年，隶属于人民日报社。网站创建依托于人民日报社官方庞大的信息资<br />源库，
+      现经过2年发展，已成为广大艺术爱好者获取专业艺术资讯的首选媒体平台，以及古玩、书画、珠宝、玉器等艺术收藏门类最权威、最时效和最真实的信息平台.<br />
+      人民艺术网版权所有: Copyright 2013 北京山水百汇文化投资有限公司&nbsp;&nbsp;&nbsp;&nbsp; 备案号：京ICP备13013606号
+    </p>
+    <div class="db_box_right">
+      <div class="dingyue">
+        <div class="sryx">
+          <span>请输入您的Email地址</span>
+        </div>
+        <div class="dy">
+          <input  type="text" class="dyk"/>
+          <a href="#">订阅</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="clr"></div>
+
+</div>
+
+    <!--footer end-->
+</body>
+</html>

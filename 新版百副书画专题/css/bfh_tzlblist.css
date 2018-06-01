@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+.con_img{width:100%;position:absolute;z-index:-1;}
+#tzlb_list{width:938px;padding-top:80px;margin:auto;}
+.erji_hd{height:120px;font-size:12px;}
+
+#tjss{height:50px;margin-top:15px;position:relative;}
+.paixu_all{float:left;width:85px;background:#eeeeee;text-align:center;border:1px solid #777;}
+.paixu_h3{height:18px;background:url(../images/btf_tzfllist/paixu_bg.jpg) no-repeat 8px 0px;}
+.paixu_all ul{position:absolute;width:85px;background:#eee;left:0px;border:1px solid #777;border-top:0px;}
+.jgpx{float:left;width:230px;text-align:center;}
+#jg_input01{width:50px;height:18px;background:#ddd;border:1px solid #777;padding:0px 3px;}
+#jg_input02{width:50px;height:18px;background:#ddd;border:1px solid #777;padding:0px 3px;}
+
+
+#erji_search{height:80px;}
+.erji_search{width:154px;height:24px;background:pink;float:right;_display:inline;background:url(../images/bfh_gnysjerji/list_search_bg.jpg) no-repeat 0px 0px;margin-right:23px;_display:inline;}
+#search_txt{float:left;width:114px;padding:0px 5px;height:24px;background:none;color:#ddd;}
+#searsh_btn01{float:left;width:30px;height:24px;cursor:pointer;background:none;}
+.tzlb_list{height:730px;width:980px;}
+.tzlb_list_con{float:left;width:180px;height:135px;overflow:hidden;margin:5px;}
+
+
+.section{ width:941px;margin:auto; }
+.first{ border-top: none; }
+
+.thumbnail{
+	float: left;
+	width:180px;
+	height:134px;
+	border:2px solid #fff;
+	}	
+.thumbnail img{
+	width:180px;
+	height:134px;
+	}	
+
+.section02_out{width:100%;position:absolute;z-index:10002;top:0;display:none;overflow:hidden;}
+.section02{width:200px;height:100px;margin:auto;background:#fff;margin-top:60px;}
+.section02 a{ width:1000px;margin:auto;overflow:hidden;}
+.section02 img{margin:auto;display:inline;border:5px solid #fff;}
+.thum_con{width:100%;height:auto;background:#fff;filter:alpha(opacity:0);opacity:0;font-size:12px;}
+.zhezhao{width:100%;background:#000;position:absolute;z-index:10001;filter:alpha(opacity:50);opacity:0.5;display:none;}
+.section02 p{padding:0px 5px;}
+.section02 .p01{height:45px;}
+.section02 .sp01{float:left;font-size:30px;}
+.section02 .sp02{float:right;color:#ddd;width:45px;height:30px;background:url(../images/btf_tzfllist/close_bg.jpg) no-repeat right 4px;padding-right:24px;text-align:right;cursor:pointer;font-size:16px;}
+.section02 .p02{color:#221815;font-size: 18px;}
+.section02 .zpxq{margin-top:10px;color:#626262;padding-bottom:5px;}
+
+.fenye{text-align: center;width:900px;margin:auto;clear:both;padding-top: 28px;}
+.fenye a{display:inline-block;padding:5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

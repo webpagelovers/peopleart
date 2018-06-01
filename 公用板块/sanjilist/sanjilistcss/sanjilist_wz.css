@@ -1,0 +1,31 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.main{width:980px;margin:auto;overflow:hidden;}
+.main a:hover{color:#da0203;}
+.main_hd{width:674px;height:40px;line-height:40px;font-size:12px;border-bottom:1px dotted #000;}
+.main_bd{width:980px;overflow:hidden;font-size:14px;}
+.main_bd_l{float:left;width:674px;overflow:hidden;margin-top:7px;}
+.main_bd_l li{width:562px; height:30px;line-height:30px;margin:auto;}
+.mt_h{margin-top:40px !important;}
+.main_bd_l li a{float:left;width:430px;overflow:hidden;background:url(../sanjiimg/main_bd_l_p_bg.jpg) no-repeat 0px center;padding:0px 10px;}
+.main_bd_l li span{float:right;font-size:12px;color:#777;}
+.fenye{width:674px;text-align:center;margin:20px 0px;}
+.fenye a{position:static;display:inline-block;width:20px !important;height:20px;border:1px solid #ddd;text-align:center;line-height:20px;background:#fff;margin:0px 3px;}
+.fenye a.prev{width:53px !important;}
+.fenye a.next{width:53px !important;}
+.fenye a.current{width:53px !important;}
+.fenye a:hover{background:#d20001;border:1px solid #ab0101;color:#fff;text-decoration:none;}
+.main_bd_r{float:right;width:253px;background:#f0f0f0;padding:10px;}
+/* 收藏新闻 */
+.scxw{width:251px;border:1px solid #ddd;margin:auto;background:#fff;}
+.scxw_hd{width:251px;height:34px;line-height:40px;background:url(../sanjiimg/scxw_hd.jpg) no-repeat 0px 0px;font-size:16px;font-weight:bold;padding:0px 5px;color:#535353;}
+.scxw_bd{margin-top:10px;}
+.scxw_bd p{height:30px;line-height:30px;padding:0px 10px;overflow:hidden;}
+
+
+
+
+
+
+
+

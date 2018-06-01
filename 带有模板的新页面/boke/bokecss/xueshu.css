@@ -1,0 +1,53 @@
+/* CSS Document */
+/***学术**/
+.zxspx{ width:980px; margin:0 auto; margin-top:5px; font-size:13px; background:url(../xueshuimg/xnav.jpg) center; height:60px;}
+.main{ width:980px; margin:0 auto; margin-top:10px;}
+.xsdqh{ background:#f7f7f7; width:978px; border:1px solid #c5c5c5;}
+.xueshu_bt{ width:978px;  background:#ededed; height:39px;}
+.xueshu_bt ul li{ float:left; width:112px; border-right:1px solid #c5c5c5; line-height:34px; color:#666666; font-size:14px; font-weight:bold; text-align:center; cursor:pointer; border-bottom:1px solid #c5c5c5;}
+.xueshu_bt ul li.w400{ width:413px; border-bottom:1px solid #c5c5c5; border-right:none; height:34px;}
+.xueshu_bt ul li.tabfirst{ background:url(../xueshuimg/xuesqhbj.png) no-repeat; color:#fff; line-height:34px; border:none; height:39px;}
+.dqhbox{ width:917px; margin:0 auto; }
+.box_list{ width:917px; margin:0 auto;}
+.listul{ background:url(../xueshuimg/uldbj.png) no-repeat bottom; padding-top:15px; padding-bottom:2px;}
+
+.listul ul li{ background:url(../xueshuimg/lbj.png) no-repeat left top; height:24px; line-height:24px; padding-left:14px; width:903px; overflow:hidden; font-size:14px;}
+.listul ul li a{ color:#666;}
+.listul ul li a:hover{ color:#fe3900;}
+.listul ul li i{ display:block; float:right; color:#ccc;}
+
+.line{ height:1px; border-bottom:1px dashed #ccc;}
+.linered{ height:2px; background:#fe3900;}
+.fy{ width:917px; margin:0 auto; padding-left:20px; padding-top:25px; padding-bottom:25px;}
+.fy ul li{ padding:3px 15px; text-align:center; background:#f1efef; float:left; height:20px; line-height:20px; border:1px solid #c5c5c5; margin-left:10px; font-size:14px;}
+/**博客页面**/
+.bokebt{ width:980px; margin:0 auto;}
+.dbt{ width:530px; float:left;}
+.dbt h1{ font-size:36px; font-weight:bold; line-height:80px;}
+.dbt h1 a{ color:#24a0c6;}
+.dbt h1 a:hover{ color:#fe3900;}
+.btqh{ width:404px; float:right; height:30px; overflow:hidden;border:1px solid #c5c5c5; border-bottom:none; margin-top:49px;}
+.btqh ul{ width:405px;}
+.btqh ul li{ font-weight:bold; float:left; height:30px; line-height:30px; text-align:center; font-size:14px; color:#24a0c6; border-right:1px solid #c5c5c5; padding:0px 10px; cursor:pointer; }
+.btqh ul li.tabfirst{ background:#f2f2f2;}
+.qh_dbox{ width:978px; margin:0 auto; background:#f2f2f2; border:1px solid #c5c5c5;}
+.qhb{ width:900px; margin:0 auto; border-bottom:1px dashed #ccc; padding-bottom:20px;}
+.bo_left{ float:left; width:236px; padding-top:40px;}
+.bo_left dl dt{ width:221px; height:132px; padding:8px; background:#fff;}
+.bo_left dl dt img{ width:221px; max-width:221px; max-height:132px; height:132px; display:block;}
+.bo_left dl dd{ float:left; overflow:hidden; margin-top:10px;}
+.bo_left dl dd.zuoz{ background:url(../bokeimg/xiaob.png) no-repeat; height:25px; width:76px; padding-left:20px;background-position: 0px -50px; line-height:25px; font-size:12px; color:#999;}
+.bo_left dl dd.fbsj{ background:url(../bokeimg/xiaob.png) no-repeat; height:25px; width:118px; padding-left:20px;background-position: 0px -75px; line-height:25px; font-size:12px; color:#999;}
+.bo_right{ width:550px; float:left; margin-left:25px;padding-top:40px;}
+.bo_right dl{ width:550px; margin:0 auto;}
+.bo_right dl dt{background:url(../bokeimg/xiaob.png) no-repeat; height:25px; line-height:25px; font-size:16px; font-weight:bold; width:515px; padding-left:35px;background-position: 0px 0px; text-align:left;}
+.bo_right dl dt a{ color:#000;}
+.bo_right dl dt a:hover{ color:#fe3900;}
+.bo_right dl dd{background:url(../bokeimg/xiaob.png) no-repeat; height:25px; line-height:25px; font-size:12px; color:#24a0c6;padding-left:35px;background-position: 0px -25px; text-align:left;width:515px;}
+.bo_right dl dd a{ color:#24a0c6;}
+.bo_right dl dd a:hover{ color:#fe3900;}
+.bo_right p{ width:550px; text-align:left; line-height:24px; font-size:12px; color:#666; height:75px; overflow:hidden;} 
+.llpl{ float:right; font-size:12px; margin-top:37px;}
+.llpl span{ display:block; float:left; padding-right:20px;}
+.llpl span a{ color:#999;}
+.llpl span a:hover{ color:#fe3900;}

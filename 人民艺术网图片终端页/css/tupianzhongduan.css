@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+/* startCommon */
+/* 样式清零 */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,button {margin: 0; padding: 0;border: 0;list-style: none;outline:none;resize:none;}
+table{border-collapse:collapse;border-spacing:0px;}
+fieldset,img,abbr,acronym{border:0px;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+
+body{color:#3e3e3e;font-size:14px;font-family:"微软雅黑 ";_font-family:"Arial";}  
+
+
+a{color:#3e3e3e;font-size:14px;text-decoration:none;font-family:"微软雅黑 ";_font-family:"Arial";}
+a:hover{color:#da0203;text-decoration:underline;font-family:"微软雅黑 ";_font-family:"Arial";}
+
+/* img  3px bug */
+img{display:block;}
+.fz00{font-size:0;}
+/* li的3px bug */
+li{vertical-align:middle;}
+/* 子盒子浮动时，父盒子不给高度则高度为一条线 */
+.clear{width:100%;height:0px;clear:both;}
+/* 父盒子不给高度，子盒子有margin-top属性，ff和ie中父盒子高度不能自适应 */
+.pd01{padding:1px;}
+.bd01{border:1px solid #000;}
+
+/* ff和ie给一个固定的高度height：200px,ff和ie6以上的浏览器中当内容大于200px时，盒子高度不变，内容会撑破200px,ie6中则高度会随盒子内容的增大而增大 */
+.height_auto{min-height:200px;height:auto !important;}
+
+/* endCommon */
+
+/*  ***************************************************head部分 start*****************************************************************/
+body{background:#f9f9f9;}
+#head{height:130px;}
+.tp_logo{float:left;width:313px;height:59px;margin-left:85px;margin-top:15px;}
+.hd_nav{height:45px;background:url(../images/hd_nav.jpg) repeat-x;line-height:45px;}
+.hd_nav a{color:#fff;font-size:12px;}
+.hd_nav a:hover{color:#da0203;}
+.hd_nav_l{width:215px;height:45px;float:left;}
+.hd_nav_l h1 img{margin-top:10px;margin-left:33px;}
+
+.hd_nav_m{width:200px;height:45px;float:left;padding-left:40px;color:#fff;font-size:12px;}
+.hd_nav_r{width:440px;height:45px;float:right;}
+.hd_nav_r ul{height:32px;margin-top:13px;}
+.hd_nav_r li{float:left;_width:95px;height:32px;line-height:32px;}
+.hd_nav_r li a{display:block;padding:0px 15px;}
+.hd_nav_li02,.hd_nav_li03,.hd_nav_li04{background:url(../images/hd_nav_li_bg.jpg) no-repeat right 0px;}
+.hd_nav_li03 a,.hd_nav_li04 a,.hd_nav_li05 a{padding-left:30px !important;}
+.hd_nav_li03 a{background:url(../images/hd_nav_li_a_bg.png) no-repeat 0px -2px;}
+.hd_nav_li04 a{background:url(../images/hd_nav_li_a_bg.png) no-repeat 0px -34px;}
+.hd_nav_li05 a{background:url(../images/hd_nav_li_a_bg.png) no-repeat 0px -66px;}
+.dc_img{height:130px;position:absolute;top:45px;z-index:-1;width:100%;}
+.dc_img img{width:100%;}
+
+.tp_nav{float:right;width:560px;padding-top:40px;text-align:center;}
+.tp_nav a{display:inline-block;width:127px;height:28px;line-height:28px;color:#fff;background:url(../images/tp_nav_a_bg.png) no-repeat 0px 0px;margin-left:-15px;}
+.tp_nav a.current{background:url(../images/tp_nav_a_bg_current.png) no-repeat 0px 0px;}
+.tp_nav a:hover{background:url(../images/tp_nav_a_bg_current.png) no-repeat 0px 0px;_color:#fff;}
+/*  ***************************************************head部分 end*****************************************************************/
+/*  ***************************************************con部分 start*****************************************************************/
+#con{height:795px;background:url(../images/ThumbPic_li_bg02.jpg) repeat-x left bottom;}
+
+
+/*  ***************************************************con部分 end*****************************************************************/
+/*  ***************************************************footer部分 start*****************************************************************/
+#footer{height:60px;line-height:60px;background:#323131;color:#fff;font-size:12px;}
+#footer p{margin:auto;width:960px;padding:0px 40px;}
+#footer a{color:#fff;font-size:12px;}
+/*  ***************************************************footer部分 end*****************************************************************/

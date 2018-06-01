@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>百幅画作-列表页</title>
+<link type="text/css" rel="stylesheet" href="shcss/sh_style.css" />
+<link type="text/css" rel="stylesheet" href="shcss/sh_index.css" />
+<link type="text/css" rel="stylesheet" href="shcss/sh_list.css" />
+<script type="text/javascript" src="shjs/jquery-1.5.min.js"></script>
+
+</head>
+
+<body>
+<!--head star-->
+<div class="sh_head">
+<div class="sh_top">
+<a href="#"><img src="shimg/top.jpg" /></a>
+</div>
+<div class="sh_nav">
+<ul>
+<li class="tabfirst"><a href="#">首页</a></li>
+<li><a href="#">中国书法</a></li>
+<li><a href="#">水墨国画</a></li>
+<li><a href="#">油画</a></li>
+<li><a href="#">作家</a></li>
+</ul>
+<script>
+$(function(){
+	$('.sh_nav ul li').hover(function(){
+	$('.sh_nav ul li').not($(this)).removeClass('tabfirst');
+
+	
+		$(this).addClass('tabfirst');
+	
+	});
+	$(".zzmzmscon").mouseenter(function(e) {
+		var oHeignt=$(this).height()+10;
+		$(this).parent().stop().animate({height:oHeignt},500);
+	}).mouseleave(function(e) {
+		$(this).parent().stop().animate({height:90},200);
+	});
+})
+</script>
+</div>
+</div>
+<!--head end-->
+<!--main star-->
+<div class="sh_main">
+	<div class="sh_main_hd">
+    	<h3>相关作者</h3>
+        <div class="sh_main_bd">
+        	<a href="#">江平</a>    <a href="#">蒋彩苹</a>   <a href="#">金大钧</a>   <a href="#">荆利斌</a>   <a href="#">康成元</a>   <a href="#">黎晶</a>   <a href="#">李铁树</a>   <a href="#">刘辉煌</a>   <a href="#">刘新城</a>   <a href="#">刘玉范</a>   <a href="#">孙志春</a>   <a href="#">汪涛</a>   <a href="#">王爱红</a>   <a href="#">王灏</a>   <a href="#">魏延杰</a>   <a href="#">吴苓</a>   <a href="#">吴雪</a>   <a href="#">肖金钟</a>   <a href="#">谢云</a> <a href="#">杨树玉</a>   <a href="#">愚清</a>   <a href="#">张有清</a>   <a href="#">赵开新</a>   <a href="#">龙开胜</a>   <a href="#">马传剑</a>   <a href="#">马弈良</a>   <a href="#">穆家善</a>   <a href="#">潘世勋</a>   <a href="#">秦龙</a>   <a href="#">石方</a>   <a href="#">舒达文</a>   <a href="#">孙成新</a>   <a href="#">孙志春</a>   <a href="#">徐睿</a>   <a href="#">徐勇</a>   <a href="#">闫振强</a>   <a href="#">颜默</a>
+<a href="#">杨炳湘</a>    <a href="#">陈硕石</a>    <a href="#">陈振新</a>   <a href="#">崔振国</a>    <a href="#">樊林</a>   <a href="#">傅继英</a>   <a href="#">龚鄂生</a>   <a href="#">关麟英</a>   <a href="#">官布</a>   <a href="#">徐勇</a>
+        </div>
+    </div>
+    <div class="sh_main_con">
+        <div class="renwu">
+            <dl>
+                <dt>
+                    <div class="zzzp">
+                        <a href="#"><img src="shimg/renwu01.jpg" /></a>
+                    </div> 
+                    <div class="zzmz"><a href="#">杨树玉</a></div>
+                </dt>
+                <dd class="zzmzms"><div class="zzmzmscon">行、隶、草篆书皆擅，且又有自家面貌，尤为篆书、隶书、行草见长，见他行草书让人融入他的草书艺术世界里去的感觉！还有最书皆擅，且又有自家面貌，尤为篆书、隶书、行草见长，见他行草书让人融入他的草书艺术世界里去的感觉！还有最难得的是在国画方面也很有专长。</div></dd>
+            </dl>
+        </div>
+        <div class="zuopin">
+            <dl>
+                <dt><a href="#" style="overflow:hidden;"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+        </div>
+        <div style="clear:both;"> </div>
+    </div>
+    <div class="sh_main_con">
+        <div class="renwu">
+            <dl>
+                <dt>
+                    <div class="zzzp">
+                        <a href="#"><img src="shimg/renwu01.jpg" /></a>
+                    </div> 
+                    <div class="zzmz"><a href="#">杨树玉</a></div>
+                </dt>
+                <dd class="zzmzms"><div class="zzmzmscon">行、隶、草篆书皆擅，且又有自家面貌，尤为篆书、隶书、行草见长，见他行草书让人融入他的草书艺术世界里去的感觉！还有最难得的是在国画方面也很有专长。</div></dd>
+            </dl>
+        </div>
+        <div class="zuopin">
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <div class="sh_main_con">
+        <div class="renwu">
+            <dl>
+                <dt>
+                    <div class="zzzp">
+                        <a href="#"><img src="shimg/renwu01.jpg" /></a>
+                    </div> 
+                    <div class="zzmz"><a href="#">杨树玉</a></div>
+                </dt>
+                <dd class="zzmzms"><div class="zzmzmscon">行、隶、草篆书皆擅，且又有自家面貌，尤为篆书、隶书、行草见长，见他行草书让人融入他的草书艺术世界里去的感觉！还有最难得的是在国画方面也很有专长。行、隶、草篆书皆擅，且又有自家面貌，尤为篆书、隶书、行草见长，见他行草书让人融入他的草书艺术世界里去的感觉！还有最难得的是在国画方面也很有专长。行、隶、草篆书皆擅，且又有自家面貌，尤为篆书、隶书、行草见长，见他行草书让人融入他的草书艺术世界里去的感觉！还有最难得的是在国画方面也很有专长。行、隶、草篆书皆擅，且又有自家面貌还方面也很有专长。</div></dd>
+            </dl>
+        </div>
+        <div class="zuopin">
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="shimg/zp01.jpg" /></a></dt>
+                <dd><a href="#">【龙马精神】</a></dd>
+            </dl>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+  	<div class="more">显示更多</div>
+</div>
+<!--main end-->
+<!--footer star-->
+<div class="sh_footer">
+<div class="clr"></div>
+<div class="foot_main">
+<p>©2013 人民艺术网版权所有 <a href="#">关于我们</a><a href="#" class="leftline">招聘信息</a><a href="#" class="leftline">广告服务</a><a href="#" class="leftline">网站地图</a><a href="#" class="leftline">百度地图</a><a href="#" class="leftline">人民艺术网</a></p>
+<p>地址：  北京市朝阳区周庄山水文园219号楼1层101号 备案号：京ICP备13013606号-1</p>
+</div>
+</div>
+<!--footer end-->
+</body>
+</html>

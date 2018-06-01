@@ -1,0 +1,109 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* 公共样式 */
+.common_hd{height:34px;line-height:34px;font-size:20px;padding:0px 10px;border-bottom:1px dotted #777;position:relative;}
+.common_hd a{position:absolute;right:6px;bottom:-3px;color:#333;}
+.common_hd a:hover{color:#da0203;}
+.xiangqing{color:#000;position:absolute;right:6px;bottom:0px;}
+.xiangqing:hover{color:#da0203;}
+/* 姜川作品 */
+.jczpList dt{height:50px;line-height:50px;background:#ed1768;overflow:hidden;padding:0px 10px;}
+.jczpList dt a{color:#fff;font-size:18px !important;}
+.jczpList {float:left;margin-right:10px;margin-top:10px;}
+/* 放大镜效果 */
+
+
+#main{width:980px;overflow:hidden;margin:auto;font-size:14px;}
+#main a{font-size:14px;}
+.jczp{width:1000px;overflow:hidden;}
+.jczpList dd{height:200px;overflow:hidden;}
+.jczpList01{width:570px;}
+.jczpList03,.jczpList04,.jczpList05{margin-right:7px;width:322px;}
+.jczpList03 dd,.jczpList04 dd,.jczpList05 dd{height:190px;}
+.jczpList05 dd{height:242px;}
+.dd_div01{width:175px;height:164px;float:left;padding:20px 10px;line-height:25px;overflow:hidden;background:#4c4c4c;color:#fff;}
+.dd_img{width:375px;height:204px;float:left;text-align:center;}
+.ddShowImg img{max-width:110%;max-height:110%;}
+
+.jczpList02{width:400px; }
+.jczpList02 dt{background:#169b9a;}
+.jczpList03 dt{background:#3c2e98;}
+.jczpList04 dt{background:#ff7e00;}
+.jczpList05 dt{display:none;}
+.jczpList05 dd img{border:5px solid #6d973f;}
+
+/* 资讯头条 */
+.zxtt{margin-top:10px;border:1px solid #ddd;overflow:hidden;}
+.zxtt_bd{padding:25px;overflow:hidden;}
+.zxtt_bd_l{float:left;width:385px;}
+.zxtt_bd_l dt{height:30px;line-height:30px;overflow:hidden;}
+.zxtt_bd_l dd{height:48px;line-height:24px;overflow:hidden;position:relative;}
+.zxtt_bd_l dt a{font-size:20px !important;color:#039bde;}
+.zxtt_bd_r{float:right;width:430px;}
+.zxtt_bd_r li{padding:0px 20px;height:30px;line-height:30px;overflow:hidden;background:url(../ysj_img/dian.jpg) no-repeat 10px center;}
+.zxtt_bd_r li a{color:#000;font-size:14px !important;}
+.zxtt_bd_r li.current a{font-weight:bold;}
+.zxtt_bd_r li a:hover{color:#da0203;}
+.zxtt_bd_r dl{padding:10px 10px 0px;overflow:hidden;}
+.zxtt_bd_r dt{float:left;width:90px;height:90px;border:1px solid #ddd;}
+.zxtt_bd_r dd{float:left;width:90px;height:90px;padding:0px 10px;}
+.zxtt_bd_r dd p{height:24px;line-height:24px;overflow:hidden;color:#aaa;}
+.zxtt_bd_r dd p a:hover{color:#da0203;}
+.zxtt_bd_r dd .p03{height:48px;}
+.zxtt_bd_r dd .p01 a{color:#777;}
+.zxtt_bd_r dd .p02 a{color:#333;}
+.zxtt_bd_r dd .p03 a{color:#aaa;}
+
+/* 作品推荐 */
+.zptj{margin-top:10px;border:1px solid #ddd;overflow:hidden;position:relative;}
+.zptj_bd{width:1000px;overflow:hidden;padding-bottom:10px;}
+.zptj_bd dl{float:left;width:184px;margin-top:10px;margin-left:10px;_display:inline;}
+.zptj_bd dt{height:141px;overflow:hidden;}
+.zptj_bd dd{height:40px;line-height:20px;margin-top:5px;}
+.zptj_bd dd p{height:20px;overflow:hidden;}
+.zptj_bd dd .p01 a{color:#000;}
+.zptj_bd dd p a:hover{color:#da0203 !important;}
+.hd_tab{position:absolute;top:11px;left:600px;}
+.hd_tab a{float:left;padding:2px 10px;}
+.hd_tab a.current{background:#da0203;color:#fff;}
+
+/* 艺术家推荐 */
+.ysjtj{overflow:hidden;margin-top:10px;border:1px solid #ddd;}
+.ysjtj_bd{width:980px;overflow:hidden;background:url(../ysj_img/ysjtj_bd_bd.jpg) no-repeat 0px 0px;padding:9px;}
+.ysjtj_bd dl{width:96px;float:left;margin-left:10px;_display:inline;margin-top:10px;}
+.ysjtj_bd dt{height:96px;}
+.ysjtj_bd dd{height:30px;line-height:30px;text-align:center;}
+.ysjtj_bd a{color:#000;}
+.ysjtj_bd a:hover{color:#da0203;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+/* 大图部分 */
+body{font-family:"微软雅黑";_font-family:"Arial";}
+a{font-family:"微软雅黑";_font-family:"Arial";}
+.zpbig{width:1374px;height:712px;margin:auto;background:url(../shimg/zhongduan.jpg) no-repeat -5px 0px;}
+.zpbig  .left{float:left;width:730px;;height:712px;}
+.syshzdzp{height:47px;line-height:42px;font-size:13px;padding-left:13px;font-weight:100;}
+.zpbigimg{width:690px;height:520px;border:1px solid #ddd;margin-left:13px;text-align:center;vertical-align:middle;display: table-cell;}
+
+
+.zpbig  .right{float:left;width:640px;;height:712px;}
+.zpbig  .right dl{width:630px;;height:662px;padding-top:50px;padding-left:10px;}
+#zpms dt{font-size:25px;height:48px;line-height:48px;padding-left:8px;}
+.zpms{padding:0px 10px;}
+.zpms h3{font-size:16px;height:36px;line-height:45px;font-weight:100;}
+.zpmsxq{width:600px;height:90px;line-height:15px;font-size:12px;line-height:24px;}
+.jgms{width:630px;height:126px;background:url(../shimg/jgms_bg.jpg) no-repeat -6px -3px ;}
+.jgms .jg{height:70px;line-height:87px;_height:50px;_line-height:50px;font-size:14px;color:#fff;padding-left:25px;padding-right:25px;}
+.spbig{font-size:22px;}
+.spoverline{text-decoration:line-through;}
+.jgms .ms{height:30px;line-height:30px;font-size:12px;color:#da0203;padding: 0px 25px;}
+.cc{height:70px;line-height:87px;font-size:14px;padding:0px 12px;}
+.cc span{padding-right:62px;}
+.lxdh{width:600px;height:56px;line-height:56px;border-top:1px dotted #000;padding:0px 7px;}
+.lxdh .fz{font-size:20px;}
+.gmfx{height:75px;line-height:75px;padding:0px 7px;margin-top:23px;}
+.gmfx a{float:left;width:166px;height:30px;line-height:30px;text-align:center;color:#fff;margin-right:20px;_display:inline;}
+.gmfx .lkgm{background:#b97538;}
+.gmfx a:hover{color:#fff !important;}
+.gmfx .jfx{background:#c41a00;width:0;}
+.sh_main_h3{height:43px;line-height:43px;background:#f8f8f8;font-size:16px;font-weight:100;padding-left:15px;margin-top:20px;}
+.sh_main_con{border:1px solid #ddd;background:none;margin-bottom:40px;}
+.zuopin dd{background:none;}
+
+
+/* 下面是分享部分 */
+.bdshare-button-style0-16 {
+    float: left !important;
+    height: 30px !important;
+    width: 100px !important;
+}
+bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more {
+	background-image:none !important;
+	background:#c41a00;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    height: 30px !important;
+    line-height: 30px !important;
+    margin: 0px 6px 6px 0 !important;
+    padding-left: 0px !important;
+	color:#fff !important;
+	font-size:16px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

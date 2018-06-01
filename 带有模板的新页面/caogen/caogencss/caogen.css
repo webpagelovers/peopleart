@@ -1,0 +1,79 @@
+/* CSS Document */
+/**名店收藏**/
+.dbj{ background:url(../caogenimg/caogendbj.jpg) repeat-x; width:100%; margin-top:5px;}
+.gba{ width:980px; padding-top:10px; background:#fff; margin:0 auto;}
+.mdsc{ margin:0 auto; width:978px; border:1px solid #ccc; margin-top:6px;}
+.mdscdbj{ width:978px; background:url(../caogenimg/mdscbj.jpg) no-repeat;}
+.mdsc_bt{ width:978px; height:40px; line-height:40px; border-bottom:1px solid #ccc;}
+.mdsc_bt span{ display:block; float:left; padding-left:18px; font-size:17px;}
+.mdsc_bt span a{ color:#000000; font-weight:bold;}
+.mdsc_bt span a:hover{ color:#da0203;}
+.mdsc_bt b{ display:block; float:right; padding-right:10px; font-size:12px; font-weight:normal;}
+.mdsc_bt b a{ color:#333;}
+.mdsc_bt b a:hover{ color:#da0203;}
+.mdsc_box{ width:980px; margin:0 auto; padding-top:10px; padding-left:10px; padding-bottom:10px;}
+.mdsc_box dl{ width:172px; float:left; margin-left:10px; border:1px solid #ccc; padding:3px; margin-bottom:10px;}
+.mdsc_box dl dt{ width:172px;}
+.mdsc_box dl dt img{ display:block; width:172px; max-width:172px; height:91px; margin-top:2px;}
+.mdsc_box dl dd{ width:172px; height:24px; line-height:24px; text-align:center;}
+.mdsc_box dl dd a{ color:#000; font-size:13px;}
+.mdsc_box dl dd a:hover{ color:#da0203;}
+
+/**收藏答疑**/
+.scdy{ width:978px; margin:0 auto; border:1px solid #ccc; border-top:none; }
+.scdy_box{ width:965px; margin:0 auto; margin-top:10px; padding-bottom:15px;}
+.scdy_left{ width:623px;  border:1px solid #ccc; padding-left:5px; float:left;}
+.left_top{ width:620px; margin:0 auto;}
+.left_list{ width:310px; float:left; margin-top:10px;}
+.left_list span{ display:block; float:left;}
+.left_list span img{ display:block; max-width:120px; width:120px;  height:60px; max-height:60px; border:1px solid #ccc;}
+.left_list dl{ float:left; margin-left:10px; width:170px;height:61px;position:relative;}
+.left_list dl dt{ width:170px; height:24px; line-height:24px; overflow:hidden; font-size:14px; color:#232323; font-weight:bold}
+.left_list dl dt a{ color:#232323;}
+.left_list dl dt a:hover{ color:#da0203;}
+
+.left_list dl dd{ width:170px; height:18px; overflow:hidden; font-size:12px; line-height:18px;}
+.left_list dl dd a{ color:#da0203;position:absolute;right:5px;bottom:0px;}
+.xx{ width:288px; border-bottom:1px dashed #ccc; margin-right:20px; float:left; margin-top:10px;}
+.left_list2{ width:620px; padding:10px 0px;}
+.left_list2 ul li{ float:left; width:290px; background:url(../caogenimg/libjd02.png) no-repeat left top; padding:0px 10px; height:24px; line-height:24px; overflow:hidden;}
+.left_list2 ul li a{ color:#000; font-size:12px;}
+.left_list2 ul li a:hover{ color:#da0203;}
+
+.scdy_right{ width:310px; border:1px solid #ccc; float:right; padding-left:10px;}
+.ri_top{ width:310px; margin:0 auto; margin-top:10px;}
+.lot{ width:210px; float:left;}
+.lot span{ display:block; float:left;}
+.lot span img{ display:block; max-width:67px; max-height:67px; width:67px; height:97px;}
+.lot dl{ float:left; margin-left:10px; width:110px;}
+.lot dl dt{ width:110px; height:24px; line-height:24px; overflow:hidden; font-size:14px; text-align:left;}
+.lot dl dt a{ color:#000;}
+.lot dl dd{ width:110px; height:20px; line-height:20px; overflow:hidden; font-size:12px; color:#ff9b01; text-align:left;}
+.jgz{ float:left; margin-top:35px; background:url(../caogenimg/jgz.jpg) no-repeat; width:64px; height:21px; line-height:21px; text-align:center;}
+.jgz a{ color:#fff; font-size:12px;}
+.xiex{ width:289px; margin-top:10px; }
+.xiex img{ display:block; margin:0 auto;}
+.ztjj{ width:310px; margin-top:14px; height:185px; overflow:hidden;}
+.ztjj p{ display:block; width:286px;overflow:hidden;line-height:23px; font-size:12px; color:#000;}
+
+/**大众藏宝**/
+
+.dzcb{ width:978px; margin:0 auto; border:1px solid #ccc; border-top:none;}
+
+.dzcb_bt{ width:978px; margin:0 auto; height:38px; line-height:38px;}
+.dzcb_bt span{ display:block; float:left;font-weight:bold; padding-left:18px;height:38px;}
+.dzcb_bt span a{ font-size:17px; color:#000;}
+.dzcb_bt b{display:block; float:left;font-size:14px; margin-left:30px;}
+.dzcb_bt b a{ color:#000; padding:0px 2px; text-decoration:none;}
+.dzcb_bt b a:hover{ color:#da0203;}
+.dzcb_bt b a.gd{ font-weight:normal; padding-left:20px;}
+.dzcb_box{ padding-left:20px; padding-bottom:20px;} 
+.dzcb_box dl{ float:left; width:140px; margin-right:19px; margin-top:15px;}
+.dzcb_box dl dt{ width:140px;}
+.dzcb_box dl dt img{ width:140px; max-width:140px; max-height:139px; height:139px; display:block;}
+.dzcb_box dl dd{ width:140px; height:24px; line-height:24px; text-align:center;}
+.dzcb_box dl dd a{ color:#000; font-size:14px; font-weight:bold;}
+ 
+
+
+

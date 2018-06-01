@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+.sh_main_hd{width:1306px;height:110px;background:#01647d;margin:auto;padding:15px 30px;}
+.sh_main_hd h3{font-size:12px;color:#fff;font-weight:100;text-decoration:underline;}
+.sh_main_bd{padding:15px 0px;line-height:24px;}
+.sh_main_con{width:1367px;height:100%;margin:auto;padding-top:40px;background:#dcd6b9;}
+.sh_main_bd a{color:#fff;font-size:15px;display:inline-block;padding:0px 5px 0px 0px;}
+.sh_main_bd a:hover{color:#f8b551 !important;}
+.renwu{float:left;margin-left:-18px;_display:inline;margin-top:-13px;width:285px;height:auto;background:url(../shimg/zuozhe.jpg) no-repeat 0px 0px;}
+.renwu dl{float:left;padding-left:30px;_display:inline;width:255px;margin-top:40px;background:url(../shimg/zuozhe2.jpg) repeat-y;}
+.renwu dt{height:80px;}
+
+
+.renwu dd marquee{ height:95px;}
+.renwu dd a{font-size:12px;}
+.renwu dd a:hover{color:#da0203;}
+
+.renwu dd{clear:both;padding-top:10px;line-height:18px;width:176px;height:90px;overflow:hidden;background:;}
+.zzmzmscon{font-size:12px;}
+
+.zzzp{float:left;width:80px;height:80px;line-height:80px;background:#fff;text-align:center;padding-top:5px; vertical-align:middle;}
+.zzmz{float:left;width:120px;height:80px;line-height:80px;text-align:center;}
+.zzmz a:hover{color:#da0203;}
+.zuopin{float:left;width:1100px;}
+.zuopin dl{float:left;width:238px;margin-right:30px;_display:inline;margin-bottom:35px;border:1px solid #ccc;text-align:center;}
+.zuopin dt{height:185px;overflow:hidden;border-bottom:1px solid #ddd; vertical-align:middle;background:#fff;display: table-cell;}
+.zuopin dt img{*margin-top:30px;}
+.zuopin dd{height:30px;line-height:30px;background:#e3dec7;}
+.zuopin dd a:hover{color:#da0203;}
+.more{width:1367px;height:36px;line-height:36px;margin:auto;text-align:center;background:#dcd6b9 url(../shimg/more.jpg) no-repeat center center;padding:20px 0px;font-size:14px;cursor:pointer;margin-bottom:40px;}
+.sh_footer{background:#fff url(../shimg/sh_foot.jpg) repeat-x;}
+.outDiv{width:202px;height:72px;}
+.innerDiv{width:202px;height:72px;position:relative;overflow:hidden;}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

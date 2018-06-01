@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.left_nav{ width:192px; height:218px; background-color:#fff;}
+a:hover{text-decoration:none;}
+
+
+/* left_nav */
+.left_nav ul{width:192px; height:218px; z-index:1000;}
+.left_nav ul li{height:37px;padding:0px;border:0px;position:relative;}
+.left_nav ul li .jiantou_bai{height:8px; width:5px;left:159px;position:absolute; z-index:2000;top:16px; background:url(../image/jiantou-1.png) no-repeat;}
+.left_nav ul li .jiantou_hei{height:8px; width:5px;left:159px;position:absolute; z-index:2000;top:16px; background:url(../image/left_nav_dt_bg.png) no-repeat;}
+.left_nav ul li a{ display:block;width:192px;height:37px;padding:0px;border:0px; color:#FFFFFF; text-align:center; line-height:37px;}
+.left_nav ul li a:hover{ color:#000000;}
+.left_nav ul li ul{position:absolute; left:188px; top:0px;width:205px; height:auto;display:none;}
+.left_nav ul li ul li{width:195px; height:27px;  float:right;  margin:0px; padding:0px;}
+.left_nav ul li ul li a{ width:96px; float:left; font-size:13px; background:none; line-height:27px;}
+/*一组图片轮显*/							   
+							   
+* A {POSITION: relative}
+.feature{POSITION: relative; height:204px; overflow:hidden; float:left; width:900px;}   
+.feature_1 {POSITION: relative; height:204px; overflow:hidden; float:left; width:1120px;}    
+.feature .prev_1{TEXT-INDENT: -9999px; WIDTH: 37px; DISPLAY: block; BACKGROUND: url(../image/rightbotton.png) no-repeat; FLOAT: right; HEIGHT: 102px; TOP: -102px; right:0px; padding-bottom:2px;}
+.feature .prev_1:hover,.feature_1 .prev_2:hover,.feature .prev_3:hover,.feature .prev_4:hover,.feature_1 .prev_5:hover{ background:url(../image/rightbotton_1.png);}
+.feature_1 .prev_2{TEXT-INDENT: -9999px; WIDTH: 37px; DISPLAY: block; BACKGROUND: url(../image/right-2.png) no-repeat; FLOAT: right; HEIGHT: 102px; TOP: -102px; right:0px; padding-bottom:2px;}
+.feature .prev_3{TEXT-INDENT: -9999px; WIDTH: 37px; DISPLAY: block; BACKGROUND: url(../image/right-4.png) no-repeat; FLOAT: right; HEIGHT: 102px; TOP: -102px; right:0px; padding-bottom:2px;}
+.feature .prev_4{TEXT-INDENT: -9999px; WIDTH: 37px; DISPLAY: block; BACKGROUND: url(../image/right-2.png) no-repeat; FLOAT: right; HEIGHT: 102px; TOP: -102px; right:0px; padding-bottom:2px;}
+.feature_1 .prev_5{TEXT-INDENT: -9999px; WIDTH: 37px; DISPLAY: block; BACKGROUND: url(../image/right-2.png) no-repeat; FLOAT: right; HEIGHT: 102px; TOP: -102px; right:0px; padding-bottom:2px;}
+.feature .next_1{TEXT-INDENT: -9999px; WIDTH: 37px; DISPLAY: block; BACKGROUND: url(../image/leftbotton.png) no-repeat; FLOAT: right; HEIGHT: 102px; TOP: -204px; right:-37px;}
+.feature_1 .next_2{TEXT-INDENT: -9999px; WIDTH: 37px; DISPLAY: block; BACKGROUND: url(../image/left-1.png) no-repeat; FLOAT: right; HEIGHT: 102px; TOP: -204px; right:-37px;}
+.feature .next_3{TEXT-INDENT: -9999px; WIDTH: 37px; DISPLAY: block; BACKGROUND: url(../image/left-3.png) no-repeat; FLOAT: right; HEIGHT: 102px; TOP: -204px; right:-37px;}
+.feature .next_4{TEXT-INDENT: -9999px; WIDTH: 37px; DISPLAY: block; BACKGROUND: url(../image/left-1.png) no-repeat; FLOAT: right; HEIGHT: 102px; TOP: -204px; right:-37px;}
+.feature_1 .next_5{TEXT-INDENT: -9999px; WIDTH: 37px; DISPLAY: block; BACKGROUND: url(../image/left-1.png) no-repeat; FLOAT: right; HEIGHT: 102px; TOP: -204px; right:-37px;}
+.feature .next_1:hover,.feature_1 .next_2:hover,.feature .next_3:hover,.feature .next_4:hover,.feature_1 .next_5:hover{background:url(../image/leftbotton_1.png) no-repeat;}
+.block {Z-INDEX: 0; POSITION: relative; width:900px; height:204px; OVERFLOW: hidden;}
+.block_1 {Z-INDEX: 0; POSITION: relative; width:1120px; height:204px; OVERFLOW: hidden;}
+.block ul{position:relative; list-style-type:none; margin:0; width:900px; float:left; left:0;}
+.block_1 ul{position:relative; list-style-type:none; margin:0; width:1200px; float:left; left:0;}
+.block ul li{WIDTH: 203px; float:left; height:204px; overflow:hidden; padding-right:13px;}
+.block_1 ul li{WIDTH: 203px; float:left; height:204px; overflow:hidden; padding-right:13px;}
+.block ul li img{width:203px; height:204px;border:1px solid #fff;}
+.block ul li a:hover img{border:1px solid #5dacec;}
+.block_1 ul li a:hover img{border:1px solid #5dacec;}
+
+.content_mid span{ font-size:14px;}

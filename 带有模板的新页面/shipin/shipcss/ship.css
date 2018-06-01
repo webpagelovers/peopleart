@@ -1,0 +1,253 @@
+/* CSS Document */
+/**焦点图***/
+.main{ width:980px; margin:0 auto; margin-top:10px;}
+.jdt{ width:642px; float:left; overflow:hidden;}
+.jdph{ width:980px; margin:0 auto;}
+#zSliders{margin:0px auto; width:642px; overflow:hidden; position:relative;}
+#picshows{position:relative;}
+#picshows,#picshows_img{width:644px; height:319px; overflow:hidden; float:left;}
+#picshows_img li{width:640px; max-width:640px; max-height:320px; border:1px solid #ccc; height:320px; overflow:hidden; float:left; display:none;}
+#picshows_img img{width:644px; height:319px;}
+#picshows_tx{right:3px; bottom:0px; position:absolute; height:26px; overflow:hidden;}
+#picshows_tx ul{ height:26px;}
+#picshows_tx li{background:#000; border-left:1px solid #fff; height:22px; width:30px; text-align:center; line-height:20px; overflow:hidden; float:left; color:#fff; margin-top:3px; line-height:24px; cursor:pointer;}
+#picshows_tx li.current{ background:url(../shipimg/libj.png) no-repeat; width:34px; background-position:bottom; border:none; height:26px;line-height:27px; margin-top:0px;}
+#picshows_tx li a{color:#fff;}
+#picshows_tx li a:hover{text-decoration:underline;}
+#picshows_tx li h3{ margin:13px 0;}
+#picshows_tx li p{ color:#ccc; line-height:16px; height:16px; overflow:hidden;}
+/**排行**/
+.ph{ width:320px; float:right;}
+.ph_bt{ width:320px; margin:0 auto; border-bottom:1px solid #da0203;}
+.ph_bt ul li{ padding:0px 10px; float:left; font-size:14px; text-align:center; color:#777; height:25px; line-height:25px; cursor:pointer;}
+.ph_bt ul li.tabfirst{ background:#da0203; color:#fff;}
+.ph_box{ width:320px; margin:0 auto; margin-top:10px;}
+.ph_list{ width:320px; margin:0 auto;}
+.ph_list dl span{ display:block; float:left;}
+.ph_list dl span img{ max-width:96px; max-height:73px; display:block; margin:0 auto;float:left;}
+.ph_list dl dt{ width:217px; float:right; height:43px; line-height:22px; overflow:hidden; font-size:14px; }
+.ph_list dl dt a{ color:#000;}
+.ph_list dl dt a:hover{ color:#da0203;}
+.ph_list dl dd{ width:103px; padding-left:5px; height:14px; line-height:14px; margin-left:4px; float:left; font-size:12px; color:#bbb; overflow:hidden; margin-top:10px;}
+.ph_list dl dd span{ display:block;}
+.ph_list dl dd span img{ max-width:19px; max-height:14px; display:block; float:left;}
+.ph_ul{ width:320px; margin:0 auto; margin-top:10px;}
+.ph_ul ul {  height:287px; width:305px; }
+.ph_ul ul li{ font-size:14px; height:29px; line-height:29px; width:303px; overflow:hidden; }
+.ph_ul ul li a{ color:#000;}
+.ph_ul ul li a:hover{ color:#da0203;}
+/**艺界资讯**/
+.yjsc{ width:980px; margin:0 auto; margin-top:10px;}
+.yjzx{ width:642px; float:left;}
+.yjzx_bt{ width:642px; border-bottom:1px solid #000; background:url(../shipimg/xiaos.png) no-repeat left; height:26px;line-height:26px; padding-left:5px;}
+
+.yjzx_bt span{ display:block; float:left; font-size:18px;}
+.yjzx_bt span a{ color:#000;}
+.yjzx_bt span a:hover{ color:#da0203;}
+.yjzx_bt b{ font-weight:normal; font-size:12px; display:block; float:right;}
+.yjzx_bt b a{ color:#777;}
+.yjzx_bt b a:hover{ color:#da0203;}
+.yjzx_box{ width:642px; margin:0 auto; margin-top:10px;}
+.yz_img{ width:252px; float:left;}
+.yz_img img{ max-width:250px; max-height:188px; border:1px solid #ccc; display:block; margin:0 auto;}
+.yz_right{ width:383px; float:right; overflow:hidden;}
+.yz_right dl{ width:383px; margin:0 auto; }
+.yz_right dl dt{ width:383px; text-align:center; font-size:16px; height:24px; line-height:24px;}
+.yz_right dl dt a{ color:#333;}
+.yz_right dl dt a:hover{ color:#da0203;}
+.yz_right dl dd{ width:383px; text-align:left; height:50px; line-height:24px; overflow:hidden; font-size:14px; color:#777;position:relative;}
+.yz_right dl dd a{ color:#da0203;position:absolute;right:6px;bottom:2px;font-size:12px;}
+.xw{ background:url(../shipimg/xw.jpg) no-repeat; height:24px; width:383px; line-height:24px; margin-top:5px;}
+.xw span{ display:block; float:left; padding-left:5px; font-size:14px;}
+.xw span a{ color:#333;}
+.xw span a:hover{ color:#da0203;}
+.fmx{ height:73px;}
+.fmx_nr{ height:73px; margin-top:15px;}
+.fmx_nr,.fmx_nr .change{ position:relative; height:73px; width:100%;}
+.fmx_nr .change .changeBox{ width:87%; left:8%;}
+.fmx_nr .change .changeBox,.fmx_nr .change .li{ height:100%; position:relative;}
+.fmx_nr .change .li{ width:112px;  float:left; }
+.fmx_nr .li a{ position:relative;}
+.fmx_nr .li a:hover{filter:alpha(opacity=90);opacity:.9;}
+.fmx_nr .change img{  height:73px; width:98px; float:left;}
+
+.fmx_nr .change .prev{ background:url(../shipimg/spleft.png) no-repeat; width:13px; height:73px;position:absolute; top:0px; left:0px;}
+.fmx_nr .change .next{ background:url(../shipimg/spright.png) no-repeat; width:13px; height:73px; position:absolute; top:0px; right:0px;}
+
+.change{position: relative; }
+.change .changeBox{overflow:hidden;}
+.change .changeBox{position: relative;z-index:0;width:100%;overflow:hidden;height:196px;}
+.change .position{top:0px; left:0px; position:relative;}
+.change .changeBox.changeType_scroll .position{ width:1000%; position:relative;}
+.change .changeBox.changeType_scroll .dire_top .position{ width:100%;}
+.change .li{ top:0px;width:286px; display:block;}
+
+.change .clearPos .li{ position: relative}
+
+.change .changeBox.changeType_scroll .li{ position: relative;float:left; }
+.changeBox img{  }
+
+.change .changeBox.changeType_scroll.dire_top .position{ width:100%;}
+.change .prev,.change .next{ top:40%; position:absolute;cursor:pointer; z-index:30;}
+.change .prev{ left:-20px;}
+.change .next{ right:-20px;}
+.change .prev:hover,.change .next:hover{}
+/**市场分析**/
+
+.scfx{ width:322px; overflow:hidden; float:right;}
+.scfx .change{ position:relative; height:233px;}
+
+.scfx_bt{ width:322px; border-bottom:1px solid #000; background:url(../shipimg/xiaos.png) no-repeat left; height:26px; line-height:26px; padding-left:5px;}
+
+.scfx_bt span{ display:block; float:left; font-size:18px;}
+.scfx_bt span a{ color:#000;}
+.scfx_bt span a:hover{ color:#da0203;}
+.scfx_bt .gd{ position:absolute; right:10px; z-index:100;}
+.scfx_bt .changeBox{ width:auto;}
+.scfx_bt .li{ width:90%; padding-top:0; padding-bottom:0; height:53px;margin:5px 0 -5px 0;}
+.scfx_bt .btn{ left:auto; right:auto; width:11px; height:6px; display:block; position:relative; margin-top:8px;}
+.scfx_bt .prev{ background:url(../shipimg/shipin_03.jpg) no-repeat left; width:14px; height:14px; float:left;}
+.scfx_bt .next{ background:url(../shipimg/shipin_03.jpg) no-repeat right; width:14px; height:14px; float:left; margin-left:5px;}
+.scfx .change li{ width:322px; height:198px; overflow:hidden;}
+.scfx .change li dl{ width:322px;}
+.scfx .change li dl span{ width:322px;}
+.scfx .change li dl span img{ display:block; max-width:322px; max-height:128px;}
+.scfx .change li dl dt{ width:317px; background:#e6e6e6; height:24px; overflow:hidden; line-height:24px; text-align:left; font-size:14px; color:#000; font-weight:bold; padding-left:5px; margin-top:5px;}
+.scfx .change li dl dd{ width:322px; height:40px; line-height:20px; overflow:hidden; font-size:12px; color:#000;}
+.scfx .change li dl dd a{ color:#da0203;position:absolute;bottom:2px;right:6px;}
+.scfx .change .changeBox{ margin-top:10px;}
+
+.spgg{ width:980px; margin:0 auto; margin-top:10px; }
+.spgg img{ max-width:980px; display:block; margin:0 auto;}
+/**视频赏析 公共课堂**/
+.zlggke{ width:980px; margin:0 auto; margin-top:10px;}
+.zlsx{ width:642px; float:left;}
+.zlsx_bt{ width:637px; border-bottom:1px solid #000; background:url(../shipimg/xiaos.png) no-repeat left; height:26px;line-height:26px; padding-left:5px;}
+
+.zlsx_bt span{ display:block; float:left; font-size:18px;}
+.zlsx_bt span a{ color:#000;}
+.zlsx_bt span a:hover{ color:#da0203;}
+.zlsx_bt b{ font-weight:normal; font-size:12px; display:block; float:right;}
+.zlsx_bt b a{ color:#777;}
+.zlsx_bt b a:hover{ color:#da0203;}
+.zlsx_box{ width:642px; margin:0 auto; margin-top:10px;}
+.zl_img{ width:344px; float:left;}
+.zl_img dl dt img{ max-width:344px; display:block; margin:0 auto;}
+.zl_img dl{ width:344px; position:relative;}
+.zl_img dl dt{ width:344px;}
+.zl_img dl dd{ width:344px; height:24px; overflow:hidden; font-size:15px; text-align:center; position:absolute; bottom:0px; background:#000;filter:alpha(opacity=90);opacity:.7; line-height:24px;}
+.zl_img dl dd a{ color:#fff;}
+.zl_img dl span{ display:none;}
+.zl_img dl.hover span{ display:block; width:344px; height:260px; position:absolute; bottom:0px;background:#000;filter:alpha(opacity=90);opacity:.7; line-height:24px;}
+.zl_img dl.hover span img{ display:block; position:absolute; top:35%; left:39%;}
+
+
+
+.zlsx_right{ width:298px;height:260px; float:right;}
+.zlsx_right dl{ float:left; width:129px;height:130px; position:relative; margin-left:20px; margin-bottom:10px;}
+.zlsx_right{ width:298px; float:right;}
+.zlsx_right dl{ float:left; width:129px; position:relative;margin-bottom:10px;}
+.zlsx_right dl dt{ width:129px;}
+.zlsx_right dl dd{ width:129px;height:24px; font-size:12px; text-align:center; position:absolute; bottom:27px; background:#000;filter:alpha(opacity=90);opacity:.7; line-height:24px;}
+.zlsx_right dl dd{ width:129px;height:24px; font-size:12px; overflow:hidden; text-align:center; position:absolute; bottom:5px; background:#000;filter:alpha(opacity=70);opacity:.7; line-height:24px;}
+.zlsx_right dl dd a{ color:#fff;}
+.zlsx_right dl i{ display:none;}
+.zlsx_right dl.hover i{ display:block; width:129px; height:98px; position:absolute; bottom:5px; left:0px;background:#000;filter:alpha(opacity=70);opacity:.7; line-height:24px;}
+.zlsx_right dl.hover i img{ display:block; max-width:23px; position:absolute; top:35%; left:39%;}
+.zlsxa_box{ float:left; width:129px; margin-left:20px;}
+.zlsxa_box p{ display:block; font-weight:normal; width:64px; float:left; font-size:12px; color:#bbb; height:14px; line-height:14px;  padding-bottom:10px;}
+.zlsxa_box p span{ display:block;}
+.zlsxa_box p span img{ display:block; float:left;}
+/**公共课堂**/
+.ggkt{ width:321px; float:right;}
+.ggk_bt{ width:316px; overflow:hidden; background:url(../shipimg/spsx03.png) no-repeat; height:24px; line-height:24px; padding-left:5px;}
+.ggk_bt ul li{ padding:0px 5px; float:left; height:24px; line-height:24px; color:#777; font-size:18px; cursor:pointer;}
+.ggk_bt ul li.tabfirst{ color:#000;}
+.ggk_bt ul b{ display:block; float:left;}
+.ggkt_box{ width:321px; margin:0 auto;}
+.ggkt_list{ width:321px; margin:0 auto; margin-top:13px;}
+.ggkt_list span{ display:block; float:left; width:38px;}
+.ggkt_list span img{ display:block; max-width:38px; max-height:260px; margin:0 auto;}
+.list_qh{ width:280px; float:right;}
+.list_qh dl{ width:119px; float:left; margin-left:21px; position:relative; margin-bottom:4px;}
+.list_qh dl span{ display:block; background:#000;filter:alpha(opacity=90);opacity:.7; position:absolute; right:0px; bottom:31px; font-size:12px; color:#fff;}
+.list_qh dl dd{ width:119px; text-align:center; height:24px; line-height:24px; font-size:12px; color:#000; margin-bottom:2px;}
+.line{ border-bottom:1px dashed #ccc; margin-bottom:10px; width:259px; float:right;}
+
+
+/**国宝档案 一周艺评**/
+.gbyz{ width:980px; margin:0 auto; margin-top:10px;}
+.gbda{ width:642px; float:left; overflow:hidden;}
+.gbda_bt{ width:637px; border-bottom:1px solid #000; background:url(../shipimg/xiaos.png) no-repeat left; height:26px;line-height:26px; padding-left:5px;}
+.gbda_bt span{ display:block; float:left; font-size:18px;}
+.gbda_bt span a{ color:#000;}
+.gbda_bt span a:hover{ color:#da0203;}
+.gbda_bt b{ font-weight:normal; font-size:12px; display:block; float:right;}
+.gbda_bt b a{ color:#777;}
+.gbda_bt b a:hover{ color:#da0203;}
+.gb_list{ width:664px; margin:0 auto; margin-top:10px;}
+.gb_list dl{ float:left; width:146px; position:relative; margin-right:19px;}
+.gb_list dl dt{ width:146px;}
+.gb_list dl dd{ width:141px;height:24px; font-size:12px; overflow:hidden; text-align:right; position:absolute; bottom:5px; background:#000;filter:alpha(opacity=70);opacity:.7; line-height:24px; padding-right:5px;}
+.gb_list dl dd span{ display:block; float:left;}
+.gb_list dl dd span img{ max-width:15px; display:block; float:left; margin-top:5px; margin-left:4px;}
+.gb_list dl dd a{ color:#fff;}
+.gb_list dl i{ display:none;}
+.gb_list dl.hover i{ display:block; width:146px; height:110px; position:absolute; bottom:5px; left:0px;background:#000;filter:alpha(opacity=70);opacity:.7; line-height:24px;}
+.gb_list dl.hover i img{ display:block; max-width:23px; position:absolute; top:35%; left:39%;}
+.gbnim{ width:146px; float:left;margin-right:19px; padding-bottom:10px;}
+.gbnim b{ display:block; font-weight:normal; width:64px; float:left; font-size:12px; color:#bbb; height:14px; line-height:14px; margin-top:4px; padding-bottom:5px; }
+.gbnim b span{ display:block;}
+.gbnim b span img{ display:block; float:left;}
+.gbnim strong{ color:#333; font-size:12px;width:146px; height:24px; text-align:center; overflow:hidden; font-weight:normal;}
+
+.yzyp{ width:321px; float:right;}
+.yzyp_bt{ width:321px; border-bottom:1px solid #000; background:url(../shipimg/xiaos.png) no-repeat left; height:26px;line-height:26px; padding-left:5px;}
+.yzyp_bt span{ display:block; float:left; font-size:18px;}
+.yzyp_bt span a{ color:#000;}
+.yzyp_bt span a:hover{ color:#da0203;}
+.yzyp_bt b{ font-weight:normal; font-size:12px; display:block; float:right;}
+.yzyp_bt b a{ color:#777;}
+.yzyp_bt b a:hover{ color:#da0203;}
+.yzyp_box{ width:321px; margin-top:10px;}
+.yzyp_box dl{ width:321px; border-bottom:1px dashed #ccc;}
+.yzyp_box dl dt{ width:321px; margin-top:3px;}
+.yzyp_box dl dt img{ max-width:321px; display:block;}
+.yzyp_box dl dt a{ display:block; width:321px; height:128px;}
+.yzyp_box dl dt a:hover{filter:alpha(opacity=90);opacity:.7;}
+.yzyp_box dl dd{ width:321px; text-align:left; height:24px; line-height:24px; overflow:hidden; font-size:14px; font-weight:bold;}
+.yzyp_box dl dd a{ color:#000;}
+.yzyp_box dl dd a:hover{  color:#da0203;}
+.yzyp_box  p{ line-height:20px; font-size:12px; color:#777; height:80px; overflow:hidden; width:321px; display:block; margin-bottom:5px;position:relative;}
+.yzyp_box  p a{ color:#da0203; font-size:12px;position:absolute;right:6px;bottom:2px;}
+.yzy_list{ width:321px; margin:0 auto; margin-top:10px;}
+.yzy_list ul li{ height:24px; line-height:24px; background:url(../shipimg/ph02.png) no-repeat left; padding-left:22px; font-size:14px; width:299px;}
+.dsjp{ width:980px; margin:0 auto; margin-top:10px;}
+.dsjp_bt{ background:url(../shipimg/dsjp01.png) no-repeat; width:980px; height:49px; text-align:center; line-height:49px;}
+.dsjp_bt a{ font-size:24px; color:#000;}
+.dsjp_bt a:hover{ color:#da0203;}
+.dsjp_box{ width:980px; margin:0 auto; margin-top:10px; background:#f6f4f5; padding-top:10px;}
+.dsjp_box dl{ width:147px; float:left; position:relative;}
+.dsjp_box dl dt{ width:147px;}
+.dsjp_box dl dt img{ display:block; max-width:145px; border:1px solid #ccc; margin:0 auto;}
+.jpdl{ float:left;width:147px; float:left; position:relative; margin-left:14px;}
+.jpdl span{ display:block; position:absolute; top:0px; right:0px;}
+.dsjp_box dl dd{ width:145px; height:24px; line-height:24px; overflow:hidden; text-align:center; font-size:12px;}
+.dsjp_box dl dd a{ color:#000;}
+.dsjp_box dl dd a:hover{ color:#da0203;}
+.jp_list{ width:953px; margin:0 auto;  margin-top:10px; padding-bottom:45px;}
+.jp_list ul li{ background:url(../shipimg/yzyp02.png) no-repeat left; padding-left:23px; width:167px; height:24px; line-height:24px; float:left; font-size:12px;}
+
+.jp_list ul li a{ color:#000;}
+.jp_list ul li a:hover{ color:#da0203;}
+
+
+
+
+
+
+
+
+
+
+

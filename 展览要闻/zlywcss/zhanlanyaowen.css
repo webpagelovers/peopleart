@@ -1,0 +1,232 @@
+/* CSS Document */
+/* 公共 */
+.part_all{width:980px;margin:auto;overflow:hidden;font-size:12px;color:#2c2c2c;margin-top:5px;}
+.part_all_l{width:650px;height:auto;float:left;overflow:hidden;}
+.part_all_r{width:322px;height:auto;float:right;}
+.part_all a{color:#2c2c2c;}
+.part_all a:hover{color:#da0203;}
+.part_all h3{float:left;height:32px;line-height:32px;padding:0px 20px;font-size:14px;font-family:"\5FAE\8F6F\96C5\9ED1";font-weight:100;}
+.part_all .zlyw_more{float:right;height:32px;line-height:32px;padding:0px 20px;font-size:12px;font-family:"\5FAE\8F6F\96C5\9ED1";font-weight:100;}
+.part_all ul{padding:10px 0px;}
+.part_all li{height:26px;line-height:26px;padding:0px 20px;background:url(../zlywimages/rwzk_li_bg.jpg) no-repeat 10px center;overflow:hidden;}
+.xiangxi{color:#da0203 !important;}
+
+.part_02{width:980px;overflow:hidden;margin:auto;}
+.part_02 a{color:#2c2c2c;}
+.part_02 a:hover{color:#da0203;}
+.part_02 h3{float:left;height:32px;line-height:32px;padding:0px 20px;font-size:14px;font-family:"\5FAE\8F6F\96C5\9ED1";font-weight:100;}
+.part_02 .zlyw_more{float:right;height:32px;line-height:32px;padding:0px 20px;font-size:12px;font-family:"\5FAE\8F6F\96C5\9ED1";font-weight:100;}
+.part_02 ul{padding:10px 0px;}
+.part_02 li{height:26px;line-height:26px;padding:0px 20px;background:url(../zlywimages/rwzk_li_bg.jpg) no-repeat 10px center;overflow:hidden;}
+
+/***广告一***/
+.gg01{ width:980px;  height:73px;margin:0 auto; margin-top:10px; border:1px solid #ccc;}
+.gg_l{width:980px;height:73;}
+
+
+/* 焦点图 */
+.jdt{height:290px;}
+.focus_img {
+	width:648px;
+	background:url(../zlywimages/m_cl_001.gif) repeat-x;
+	overflow:hidden;
+	zoom:1;
+	height:290px
+}
+.focus_img .big_area {
+	display:inline;
+	float:left;
+	overflow:hidden;
+	width:548px;
+	position:relative;
+}
+.focus_img .big_area h3 {
+	font-weight:normal;
+	font-size:18px;
+	left:0px;
+	margin:0px;
+	overflow:hidden;
+	width:508px;
+	color:#000;
+	bottom:0px;
+	line-height:34px;
+	font-family:黑体;
+	position:absolute;
+	height:32px;
+	text-align:center
+}
+.focus_img .big_area img {
+	filter:revealtrans(duration=1, transition=5)
+}
+.focus_img .big_area .titlebg {
+	background:#fff;
+	filter:alpha(opacity=60);
+	left:0px;
+	width:548px;
+	bottom:0px;
+	position:absolute;
+	height:32px;
+	opacity:0.6
+}
+.focus_img .thurmb {
+	padding:0px 8px 0 0;
+	float:right;
+	width:90px;
+}
+.focus_img .thurmb .small_div {
+	margin-top:8px;
+	background:url(../zlywimages/m_cl_002.gif) no-repeat;
+	overflow:hidden;
+	width:98px;
+	cursor:pointer;
+	height:64px
+}
+.focus_img .thurmb .selected {
+	background-position:0px -136px;
+	color:#fff
+}
+.focus_img .thurmb .selected img {
+	border-color:#ecd8cf;
+}
+.focus_img .thurmb .selected a {
+	color:#fff;
+	text-decoration:none
+}
+.focus_img .thurmb img {
+	border:#ccc 1px solid;
+	display:inline;
+	float:left;
+	margin:4px 0px 0px 13px;
+	width:78px;
+	height:54px
+}
+.focus_img .thurmb .small_div span {
+	padding:5px 0 0 4px;
+	display:block;
+	margin-left:103px;
+	line-height:19px;
+}
+/* 收藏资讯 */
+.sczx{float:left;width:318px;height:312px;margin-top:10px;}
+.sczx_hd{height:24px;line-height:24px;background:url(../zlywimages/sczx_hd_bg.jpg) no-repeat 0px 0px;}
+.sczx_hd h3{height:24px;line-height:24px;color:#000;}
+.sczx_hd .zlyw_more{height:24px;line-height:24px;color:#000;}
+.sczx_bd{height:384px;}
+.sczx_bd dl{height:91px;margin-top:20px;padding-bottom:20px;border-bottom:1px dotted #ccc;}
+.sczx_bd dt{float:left;width:115px;height:91px;text-align:center;}
+.sczx_bd dd{float:left;width:187px;height:81px;line-height:21px;padding:5px 0px;overflow:hidden;}
+
+/* 投资指南 */
+.tzzn{float:left;width:318px;height:312px;margin-top:10px;margin-left:14px;_display:inline;}
+.tzzn_hd{height:24px;line-height:24px;background:url(../zlywimages/sczx_hd_bg.jpg) no-repeat 0px 0px;}
+.tzzn_hd h3{height:24px;line-height:24px;color:#000;}
+.tzzn_hd .zlyw_more{height:24px;line-height:24px;color:#000;}
+.tzzn_bd{height:384px;}
+.tzzn_bd dl{height:91px;margin-top:20px;padding-bottom:20px;border-bottom:1px dotted #ccc;}
+.tzzn_bd dt{float:left;width:115px;height:91px;text-align:center;}
+.tzzn_bd dd{float:left;width:187px;height:81px;line-height:21px;padding:5px 0px;overflow:hidden;}
+
+/* 藏品库 */
+.cpk{float:left;width:650px;height:412px;margin-top:10px;}
+.cpk_hd{height:24px;line-height:24px;background:url(../zlywimages/sczx_hd_bg.jpg) no-repeat 0px 0px;}
+.cpk_hd h3{height:24px;line-height:24px;color:#000;}
+.cpk_hd .zlyw_more{height:24px;line-height:24px;color:#000;}
+.cpk_bd{width:626px;height:385px;border:1px solid #ddd;padding:0px 10px;border-top:0;}
+.cpk_bd dl{float:left;width:153px;height:155px;margin-top:25px;}
+.cpk_bd dt{width:154px;height:105px;}
+.cpk_bd dd{width:124px;height:81px;line-height:21px;padding:5px 10px;overflow:hidden;}
+.jiage{color:#da0203;}
+
+
+/* 拍卖资讯 */
+.pmzx{height:290px;background:url(../zlywimages/main_news_bg.jpg) no-repeat 0px 0px;}
+.pmzx_hd{height:32px;line-height:32px;}
+.pmzx_bd{height:254px;}
+
+/* 活动信息 */
+.hdxx{height:312px;margin-top:10px;}
+.hdxx_hd{height:24px;line-height:24px;background:url(../zlywimages/hdxx_hd_bg.jpg) no-repeat 0px 0px;}
+.hdxx_hd h3{height:24px;line-height:24px;color:#fff;}
+.hdxx_hd .zlyw_more{height:24px;line-height:24px;color:#fff;}
+.hdxx_bd{height:284px;border:1px solid #ddd;}
+.hdxx_bd dl{height:75px;margin-top:10px;}
+.hdxx_bd dt{float:left;width:104px;height:75px;text-align:center;}
+.hdxx_bd dd{float:left;width:200px;height:75px;overflow:hidden;line-height:25px;}
+
+/* 收藏知识 */
+.sczs{height:412px;margin-top:10px;}
+.sczs_hd{height:24px;line-height:24px;background:url(../zlywimages/hdxx_hd_bg.jpg) no-repeat 0px 0px;}
+.sczs_hd h3{height:24px;line-height:24px;color:#fff;}
+.sczs_hd .zlyw_more{height:24px;line-height:24px;color:#fff;}
+.sczs_bd{height:384px;border:1px solid #ddd;}
+.sczs_bd dl{height:75px;margin-top:10px;}
+.sczs_bd dt{float:left;width:104px;height:75px;text-align:center;}
+.sczs_bd dd{float:left;width:200px;height:75px;overflow:hidden;line-height:25px;}
+
+/* 书画古玩 */
+.shgw{float:left;width:484px;height:230px;margin-top:10px;}
+.shgw_hd{height:24px;line-height:24px;background:url(../zlywimages/sczx_hd_bg.jpg) no-repeat 0px 0px;}
+.shgw_hd h3{height:24px;line-height:24px;color:#000;}
+.shgw_hd .zlyw_more{height:24px;line-height:24px;color:#000;}
+.shgw_bd{height:204px;border:1px solid #ddd;border-top:0;}
+.shgw_bd dl{height:182px;padding:10px 0px;}
+.shgw_bd dt{float:left;width:248px;height:182px;text-align:center;}
+.shgw_bd dd{float:left;width:200px;height:182px;overflow:hidden;line-height:25px;}
+.shgw_bd dd ul{padding:0px;}
+.shgw_bd dd li{width:198px;height:23px;line-height:23px;}
+.shgw_bd dd li a{font-size:12px;}
+
+/* 珠宝玉器 */
+.zbyq{float:left;width:484px;height:230px;margin-top:10px;margin-left:12px;_display:inline;}
+.zbyq_hd{height:24px;line-height:24px;background:url(../zlywimages/sczx_hd_bg.jpg) no-repeat 0px 0px;}
+.zbyq_hd h3{height:24px;line-height:24px;color:#000;}
+.zbyq_hd .zlyw_more{height:24px;line-height:24px;color:#000;}
+.zbyq_bd{height:204px;border:1px solid #ddd;border-top:0;}
+.zbyq_bd dl{height:182px;padding:10px 0px;}
+.zbyq_bd dt{float:left;width:248px;height:182px;text-align:center;}
+.zbyq_bd dd{float:left;width:200px;height:182px;overflow:hidden;line-height:25px;}
+.zbyq_bd dd ul{padding:0px;}
+.zbyq_bd dd li{width:198px;height:23px;line-height:23px;overflow:hidden;background:url(../zlywimages/rwzk_li_bg.jpg) no-repeat 10px 10px;}
+.zbyq_bd dd li a{font-size:12px;}
+
+/* 油画雕塑 */
+.yhds{float:left;width:484px;height:230px;margin-top:12px;}
+.yhds_hd{height:24px;line-height:24px;background:url(../zlywimages/sczx_hd_bg.jpg) no-repeat 0px 0px;}
+.yhds_hd h3{height:24px;line-height:24px;color:#000;}
+.yhds_hd .zlyw_more{height:24px;line-height:24px;color:#000;}
+.yhds_bd{height:204px;border:1px solid #ddd;border-top:0;}
+.yhds_bd dl{height:182px;padding:10px 0px;}
+.yhds_bd dt{float:left;width:248px;height:182px;text-align:center;}
+.yhds_bd dd{float:left;width:200px;height:182px;overflow:hidden;line-height:25px;}
+.yhds_bd dd ul{padding:0px;}
+.yhds_bd dd li{width:198px;height:23px;line-height:23px;overflow:hidden;background:url(../zlywimages/rwzk_li_bg.jpg) no-repeat 10px 10px;}
+.yhds_bd dd li a{font-size:12px;}
+
+/* 红木家具 */
+.hmjj{float:left;width:484px;height:230px;margin-top:12px;margin-left:12px;_display:inline;}
+.hmjj_hd{height:24px;line-height:24px;background:url(../zlywimages/sczx_hd_bg.jpg) no-repeat 0px 0px;}
+.hmjj_hd h3{height:24px;line-height:24px;color:#000;}
+.hmjj_hd .zlyw_more{height:24px;line-height:24px;color:#000;}
+.hmjj_bd{height:204px;border:1px solid #ddd;border-top:0;}
+.hmjj_bd dl{height:182px;padding:10px 0px;}
+.hmjj_bd dt{float:left;width:248px;height:182px;text-align:center;}
+.hmjj_bd dd{float:left;width:200px;height:182px;overflow:hidden;line-height:25px;}
+.hmjj_bd dd ul{padding:0px;}
+.hmjj_bd dd li{width:198px;height:23px;line-height:23px;overflow:hidden;background:url(../zlywimages/rwzk_li_bg.jpg) no-repeat 10px 10px;}
+.hmjj_bd dd li a{font-size:12px;}
+
+#hezuo{height:245px;background:url(../zlywimages/hezuo_bg.jpg) 0px 9px;}
+.hezuo{width:980px;height:245px;margin:auto;background:url(../zlywimages/hezuo_bg02.png) no-repeat 0px 22px;}
+.hezuo ul{height:63px;padding:41px 0px;border-bottom:1px solid #000;padding-left:140px;}
+.hezuo li{float:left;width:155px;height:63px;margin-right:10px;_display:inline;overflow:hidden;background:url(../zlywimages/rwzk_li_bg.jpg) no-repeat 10px 10px;}
+.hezuo_link{height:80px;padding-top:20px;}
+.hezuo_link a{float:left;display:block;padding:0px 10px;height:30px;line-height:30px;font-size:14px}
+
+
+
+
+
+
+
+
+

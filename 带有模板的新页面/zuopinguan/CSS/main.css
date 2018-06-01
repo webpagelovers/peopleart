@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+#main{ width:1160px;height:auto;margin:0 auto;}
+#main_top{ width:1160px;height:106px;margin:0 auto;}
+.main_top_list_1{float:left;width:232px;height:106px;}
+
+ /*main头部的logo样式*/
+.main_top_list_1 img{ padding-top:30px;  }
+.main_top_list_2{  width:928px;height:auto; float:left; }  
+.main_top_list_2 span{font-weight:bold;}    /*设置当前页的文字加粗样式*/
+.main_top_list_2 ul{ padding-top:45px; padding-left:20px; }       /*logo右边的导航*/
+.main_top_list_2 ul li{padding-right:3px;float:left;font-size:14px;font-weight:normal;list-style:none;font-family:"\5FAE\8F6F\96C5\9ED1";}
+.main_top_list_2 ul li a{color:#000000;text-decoration:none;}
+.main_top_list_2 ul li a:hover{font-weight:bold;}				  			  
+
+ /*网页main中间内容*/					  
+.content{ width:1160px;margin:0 auto;height:auto;}					  
+.content_top{width:1160px;height:508px; position:relative;overflow:hidden;background-image:url(../image/img2.png);}  /*内容的上部分--大图展示部分*/
+.left_nav{ width:190px;height:200px;position:absolute; margin-top:-243px;z-index:1000;margin-left:17px;padding:0px;background:#fff;border:1px solid #CDCDCD;}   /*大图部分的图片上方的导航栏*/
+.content_mid{ margin:0 auto;width:1120px;height:auto;}
+.content_mid_list_1{ width:1120px; height:457px;margin-top:14px;border-bottom:5px solid #807366;}/*第一、二行横排图*/
+.content_mid_list_1_1{ width:auto; height:228px; }  
+.content_mid_list_1_2{ width:auto; height:228px; }
+.content_mid p{ color:#fff; font-size:12px; z-index:100; position:absolute; top:-102px; left:15px; font-family:"\5FAE\8F6F\96C5\9ED1"; font-weight:bold; line-height:25px;} 
+.content_mid_list_1_1 a:hover p,.content_mid_list_2 a:hover p{ color:#000000;}        
+.content_mid_list_1_1 .mid_img_tit_1{ float:left; width:216px; position:relative;}
+.content_mid_list_2 .mid_img_tit_2{ float:left; width:216px;}
+.content_mid_list_1_1 .mid_img_tit_3{ float:left; width:216px;}
+.content_mid_list_2{width:1120px;height:228px; margin-top:20px; border-bottom:5px solid #807366;} /*第三行横排图*/
+.content_mid_list_3{ width:1120px;height:448px; margin:0 auto; margin-top:20px;}/*第四、五行横排图*/
+/*内容部分底部*/
+.content_foot{ width:1120px;height:670px;margin:0 auto;}  
+.content_foot_hs{ width:1120px; height:51px; background-color:#cc4040;}  /*红色展览*/
+.zl{margin:15px 27px; width:30px; height:20px; float:left;} /*文字“展览”*/
+.zl a{ font-size:15px;color:#FFFFFF;}
+.zl a:hover{ text-decoration:none; }
+.gd{margin:15px 27px; width:30px; height:20px; float:right;}  /*文字“更多”*/
+.gd a{ font-size:15px; color:#FFFFFF;}
+.gd a:hover{ text-decoration:none; }
+.content_foot_zlnr{height:621px;width:1120px;padding-top:10px;} /*展览内容显示*/
+.content_foot_zlnr_list{margin:0px 10px 10px 0px;float:left;width:270px;height:291px;border:1px solid #d7d7d7;position:relative;}/*展览内容显示的每个图块*/
+.content_foot_zlnr_list_yb{ margin:0px 0px 10px 0px; float:left; width:270px;height:291px;border:1px solid #d7d7d7;position:relative;}  /*展览内容显示的每行的最右边图块*/
+.content_foot_zlnr_list_tu{width:244px;height:159px;margin:16px 15px 18px 11px;position:absolute;} /*展览内容显示的每个图块中的小图*/  
+.content_foot_zlnr_list:hover,.content_foot_zlnr_list_yb:hover{        /*图片的蒙板效果*/
+                    filter:alpha(opacity=20);  /* IE 浏览器支持 */ 
+                    -moz-opacity:0.6;          /* 遨游浏览器 火狐浏览器 支持 */ 
+                    opacity: 0.6;              /* 支持CSS3的浏览器（FF 1.5也支持）*/
+		             }
+.content_foot_zlnr_list_zi{clear:both;width:244px;height:98px;margin:175px 15px 18px 11px; position:absolute;background-color:#d5d5d5;} /*展览内容显示的每个图块中的文字*/  
+.content_foot_zlnr_list_zi ul{margin-left:14px;}
+.content_foot_zlnr_list_zi ul li{margin-top:5px;list-style:none;width:auto;height:20px;font-size:15px;}
+.content_foot_zlnr_list_zi ul li span{color:#FF0000;}
+.content_foot_zlnr_list_zi ul li a{color:#000000;}
+.content_foot_zlnr_list_zi ul li a:hover{text-decoration:none;}

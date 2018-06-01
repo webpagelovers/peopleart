@@ -1,0 +1,56 @@
+/* CSS Document */
+/* 公共 */
+.hd_more{position:absolute;right:5px;top:10px;background:#e6e6e6;width:48px;height:18px;background:url(../../images/hdimages/hd_mmore_bg.jpg) no-repeat 0px 0px;text-align:center;line-height:18px;font-size:12px;color:#c5c5c5;}
+dt img{display:block;}
+dd{width:210px;margin:auto;overflow:hidden;}
+.dt_div{height:42px;line-height:21px;font-size:16px;font-weight:bold;font-family:"\5FAE\8F6F\96C5\9ED1";padding:10px;overflow:hidden;color:#777777;}
+.dd01{height:50px;line-height:25px;background:#fff;}
+.dd02{height:75px;line-height:25px;background:#fff;}
+.dd03{height:25px;line-height:25px;background:#fff;}
+.dd03 h3{display:inline;}
+.dd03 p{display:inline;}
+.dd04{height:100px;line-height:25px;background:#fff;}
+.dd_h3{font-size:14px;font-family:"\5FAE\8F6F\96C5\9ED1";overflow:hidden;color:#777777;}
+.dd_p{font-size:14px;font-family:"\5FAE\8F6F\96C5\9ED1";overflow:hidden;color:#777777;}
+.xiangqing{color:#ff6600;}
+.xiangqing:hover{color:#ff6600;}
+.hd_ul{width:220px;+height:367px;margin:auto;margin-top:15px;overflow:hidden;}
+.hd_ul li{height:36px;line-height:34px;overflow:hidden;padding:0px 15px;background:url(../../images/hdimages/rwzk_li_bg.jpg) no-repeat 5px center;border-bottom:1px dotted #ccc;}
+.hd_ul li a{font-size:14px;font-family:"\5FAE\8F6F\96C5\9ED1";color:#666666;}
+.hd_ul li a:hover{color:#da0203;}
+.hd_zz{width:100%;height:100%;position:absolute;left:0px;top:0px;display:none;z-index:-1;}
+
+.part_all{width:980px;height:1062px;margin:auto;overflow:hidden;}
+.hd_hd{height:60px;line-height:60px;color:#2565bb;font-size:26px;font-weight:100;font-family:"\5FAE\8F6F\96C5\9ED1";}
+.hd_bd{width:978px;height:998px;overflow:hidden;border:1px solid #ddd;}
+/* 写生 */
+.xs{float:left;width:242px;overflow:hidden;padding-top:154px;background:#fbfbfb url(../../images/hdimages/xs_bg.jpg) no-repeat 0px 0px;position:relative;}
+.xs dl{width:221px;height:460px;margin:auto;background:#fff;border-radius:5px;border:1px solid #ddd;background:#fcfcfc;}
+.xs  .hd_zz{background:#777777;filter:alpha(opacity:2);opacity:0.2;}
+
+
+/* 外拍 */
+.wp{float:left;width:242px;overflow:hidden;padding-top:154px;background:url(../../images/hdimages/wp_bg.jpg) no-repeat 0px 0px;border-left:2px solid #2565bb;position:relative;}
+.wp dl{width:221px;height:460px;margin:auto;background:#fff;border-radius:5px;border:1px solid #ddd;background:#fcfcfc;}
+.wp  .hd_zz{background:#2565bb;filter:alpha(opacity:2);opacity:0.2;}
+
+/* 节目 */
+.jm{float:left;width:242px;overflow:hidden;padding-top:154px;background:url(../../images/hdimages/jm_bg.jpg) no-repeat 0px 0px;border-left:2px solid #e40101;position:relative;}
+.jm dl{width:221px;height:460px;margin:auto;background:#fff;border-radius:5px;border:1px solid #ddd;background:#fcfcfc;}
+.jm  .hd_zz{background:#e40101;filter:alpha(opacity:2);opacity:0.2;}
+
+
+/* 课堂 */
+.kt{float:left;width:245px;overflow:hidden;padding-top:154px;background:url(../../images/hdimages/kt_bg.jpg) no-repeat 0px 0px;border-left:2px solid #000;position:relative;}
+.kt dl{width:221px;height:460px;margin:auto;background:#fff;border-radius:5px;border:1px solid #ddd;background:#fcfcfc;}
+.kt  .hd_zz{background:#000000;filter:alpha(opacity:2);opacity:0.2;}
+
+
+
+
+
+
+
+
+
+

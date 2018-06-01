@@ -1,0 +1,71 @@
+/* CSS Document */
+.zwypjdt{ width:646px; float:left; margin-top:10px;}
+.zxlist{ width:319px; float:right;margin-top:10px;}
+.zx_bt{ width:319px; background:url(../zwypimg/zxlbbj.jpg) no-repeat; height:24px; line-height:24px;}
+.zx_bt span{ display:block; float:left; text-align:left; line-height:18px; font-size:16px;}
+.zx_bt span a{ color:#000; font-weight:bold;}
+.zx_bt span a:hover{ color:#da0203;}
+.zx_bt b{ font-weight:normal; display:block; float:right; font-size:12px; margin-right:5px;}
+.zx_box{ width:288px; margin:0 auto;}
+.zx_box dl{ background:url(../zwypimg/tu.jpg) no-repeat; height:80px; margin-top:10px; padding-left:5px; padding-top:5px;}
+.zx_box dl dt{ font-size:16px; height:24px; line-height:24px; width:280px; margin:0 auto; overflow:hidden;}
+.zx_box dl dt a{ font-weight:bold; color:#000;}
+.zx_box dl dt a:hover{ color:#da0203;}
+.zx_box dl dd{ width:280px; height:43px; line-height:22px; overflow:hidden; font-size:12px; margin:0 auto;}
+.zx_box dl dd a{ color:#da0203;}
+.zx_box ul li{ font-size:14px; width:280px; height:27px; line-height:27px; overflow:hidden;}
+.zx_box ul li span{ display:block; float:left;}
+.jy{ width:316px; float:left; margin-right:14px;}
+.jy_bt{ background:url(../zwypimg/zwbtbj.jpg)  no-repeat; height:25px; line-height:25px;}
+.jy_bt span{ display:block; float:left; line-height:22px; }
+.jy_bt span a{ font-size:16px; color:#000; font-weight:bold;}
+.jy_bt b{ display:block; float:right; font-weight:normal; font-size:12px; margin-right:5px;}
+.jy_bt b a{ color:#302e2e;}
+.jydl{ width:316px; margin:0 auto; margin-top:10px; border-bottom:1px dashed #ccc; padding-bottom:24px;}
+.jydl span{ display:block; float:left; width:98px;}
+.jydl span img{ display:block; max-width:98px; max-height:88px; margin:0 auto; border:1px solid #ccc;}
+.jydl dl{ width:202px; float:right;}
+.jydl dl dt{ width:202px; text-align:left; height:24px; line-height:24px; overflow:hidden; font-size:16px; font-weight:bold;}
+.jydl dl dt a{ color:#000;}
+.jydl dl dt a:hover{ color:#da0203;}
+.jydl dl dd{ width:202px; text-align:left; font-size:12px; color:#000; line-height:22px; height:67px; overflow:hidden;}
+
+.jylist{ width:316px; margin:0 auto; margin-top:15px;}
+.jylist ul li{ width:300px; height:24px; background:url(../zwypimg/libjd02.png) no-repeat left top; line-height:24px; padding-left:12px; overflow:hidden;}
+
+
+.zwph{ width:316px; float:right;}
+
+.zwph_bt{ background:url(../zwypimg/zwbtbj.jpg)  no-repeat; height:25px; line-height:25px;}
+.zwph_bt span{ display:block; float:left; line-height:22px; }
+.zwph_bt span a{ font-size:16px; color:#000; font-weight:bold;}
+.zwph_bt b{ display:block; float:right; font-weight:normal; font-size:12px; margin-right:5px;}
+.zwph_bt b a{ color:#302e2e;}
+.zwph_box{ width:316px; margin:0 auto;}
+.zwph_box ul{ background:url(../zwypimg/phlibj.png) no-repeat left; padding-left:18px;}
+.zwph_box ul li{ height:25px; line-height:25px; width:298px; overflow:hidden; margin-bottom:1px;}
+
+.zstz{ margin:0 auto; width:980px; margin-top:15px;}
+.lt_box{ margin-top:10px;}
+.lt_box ul li{width:300px; height:25px; background:url(../zwypimg/libjd02.png) no-repeat left top; line-height:25px; padding-left:12px; overflow:hidden;}
+.ltlist{width:319px; float:right;}
+
+.jdyp{ width:980px; margin:0 auto; margin-top:10px;}
+.jdyp_bt{ background:url(../zwypimg/jdypbj.jpg) no-repeat; height:26px; line-height:26px;}
+.jdyp_bt span{ display:block; float:left; font-size:16px;}
+.jdyp_bt span a{ color:#000; font-weight:bold;}
+.jdyp_bt span a:hover{ color:#da0203;}
+.jdyp_bt span a i{ color:#da0203;}
+.jdyp_bt b{ display:block; font-weight:normal; float:right; margin-right:5px; }
+.jdyp_bt b a{ color:#302e2e; font-size:12px;}
+.jdyp_bt b a:hover{ color:#da0203;}
+
+.jdyp_box{ width:1031px; padding-top:15px;}
+.jdyp_box dl{ float:left; margin-right:48px; margin-bottom:15px;}
+.jdyp_box dl dt{ width:156px; height:109px; border:1px solid #ccc;}
+.jdyp_box dl dd{ width:156px; height:25px; overflow:hidden; line-height:25px; text-align:center; font-size:14px;}
+.jdyp_box dl dd a{ color:#191111;}
+.jdyp_box dl dd a:hover{ color:#da0203;}
+
+
+

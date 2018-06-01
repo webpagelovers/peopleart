@@ -1,0 +1,172 @@
+/*********网站整体样式*************/
+*{margin:0px;padding:0px;} 
+*html{background-image:url(about:blank);background-attachment:fixed;}
+body { width:100%; height:100%;margin:0px; padding:0px; font-size:12px; font-style:normal; font-family: "Microsoft YaHei"; line-height:20px; color:#333333;}
+ul, ol, dl, dd, form, input, select, button,textarea{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 ,p{font-size:100%;font-weight:normal; padding:0px; margin:0px;}
+ul,ol{list-style:none;}
+img{border:0px;border:none;vertical-align:middle; _vertical-align:top;}
+i,em{ font-style:normal;}
+a{color:#333333; text-decoration:none; outline:none;}
+a:hover{text-decoration:underline; color:#e11415;}
+.left{ float:left;}
+.right{ float:right;}
+.clear{ clear:both; height:0px; font-size:0px; line-height:0px; zoom:1;}
+.clearfix{ clear:both;  zoom:1;}
+.main{ width:980px; margin:0px auto;} 
+input,textarea,select{ outline:none;}
+.h55{ height:55px;}
+.h10{ height:10px;}
+
+/*-----头部------*/
+.header{ height:47px; background:#444; line-height:47px; margin-bottom:8px; position:fixed; width:100%; left:0px; top:0px; z-index:100;}
+.header .top{ height:47px; margin:0px auto; width:980px; font-family:"微软雅黑";}
+.header .top a{ color:#fff; padding-right:10px;}
+.header .top_nav{ float:left;}
+.search{ background:url(../images/sou.gif) no-repeat; width:218px; height:28px; float:right; margin-top:10px; padding:0px 0px 0px 10px}
+.search input{ float:left;}
+.soubox{ width:188px; height:20px; line-height:20px; background:#444444; border: none 0px; margin-top:3px; float:left; color:#fff;}
+.logo{ height:45px; padding:10px 0px; position:relative}
+.logoflash{ width:233px; height:44px; position:absolute; left:0px; top:10px}
+.logoflash a{width:233px; height:44px; display:block; position:absolute;left:0px; top:0px; z-index:111111;}
+.logotj{ float:right; font-size:19px; line-height:45px;}
+.logotj img{ margin-top:-4px;}
+
+
+
+/*导航*/
+.nav{ background:url(../images/common/nav_bg.gif) repeat-x; height:49px;position:relative }
+.nav li{ float:left;}
+.mainnav{ font-size:16px; height:49px; line-height:47px; color:#fff;}
+.mainnav li{ background:url(../images/common/line_02.gif) right center no-repeat; padding-right:2px;}
+.mainnav li.nobg{ background: none;}
+.mainnav ul{ padding-left:30px;}
+.mainnav a{ color:#fff; height:49px; display:inline-block;padding:0px 11px;}
+.mainnav a:hover/*,.mainnav li.on a*/{ text-decoration:none; background: url(../images/common/nav_bg2.gif) no-repeat center bottom; }
+.subcon{ line-height:27px; color:#aa1e1e; padding-left:30px; font-size:16px; height:31px; background:url(../images/common/nav_bg1.gif) repeat-x; position:absolute; 
+
+left:0px; top:47px; width:950px;}
+.mainnav li.on .subcon a{ color:#fff; font-size:12px; background: url(../images/common/icon_03.gif) left center no-repeat; padding-left:10px; display:inline-block; 
+
+height:27px;}
+.subcon{ display:none;}
+.mainnav li.on .subcon{ display:block;}
+.one{ font-size:12px; color:#fff;}
+/*导航 end*/
+
+
+.zlnav{ background:url(../images/nav_bg.gif) repeat-x; height:47px; padding-top:2px; padding-left:10px;}
+.zlnav li{ float:left; padding-left:1px;}
+.zlnav li a{ color:#fff; font-size:17px; height:30px; display:block; padding-top:10px; padding:10px 15px 0px 15px;}
+.zlnav li.on a,.zlnav li a:hover{ background:#da0203; text-decoration:none;}
+
+.navmian{ height:26px; margin:10px 0px;}
+.navmian li{ float:left; height:26px; line-height:26px; padding:0px 14px; font-size:16px; border-right:1px solid #9b9b9b;}
+.navmian li.nobor{ border: none 0px;}
+.navmian li a span{ color:#e1e1e1;}
+.navmian li a:hover{ text-decoration:none;}
+
+/*---------友情链接--------*/
+.links{ clear:both}
+.links_tit{ height:20px; background:url(../images/common/links_bg1.gif) repeat-x left center; margin-top:13px; text-align:center; }
+.links_tit span{ background:#fff; padding:0px 15px; font-size:14px; font-weight:bold;}
+.linkscon{ text-align:center; padding:10px 0px 0px 0px;}
+.linkscon a{ white-space:nowrap;}
+/*友情链接 end*/
+
+/*底部*/
+.foot{ height:40px; line-height:40px; text-align:center; color:#fff; background:#444; margin-top:30px;}
+.foot a{ color:#fff;}
+.bottom{ height:55px; text-align:center; line-height:55px;}
+/*底部 end*/
+
+
+/*其它页面共用样式*/
+.red{ color:#e11415;}
+.grey{ color:#777;}
+.blue{ color:#2894e7}
+.white{ color:#fff;}
+
+
+.ad{ height:70px;}
+.subad_01{ width:364px; float:left}
+.subad_02{ width:352px;float:left}
+.subad_03{ width:264px;float:left}
+.zlad_02{ border:1px solid #bbb; width:632px; float:right; margin-bottom:10px;}
+
+.place_bg{ background:url(../images/zixun/bg_01.gif) repeat-x bottom; height:33px; padding-top:15px; margin-bottom:20px;}
+.place{ width:330px; float:left}
+.place em{ float:right}
+.pb10{ padding-bottom:10px;}
+.pb15{ padding-bottom:15px;}
+.pt10{ padding-top:10px;}
+
+.pl10{ padding-left:10px;}
+.pr10{ padding-right:10px;}
+.pr7{ padding-right:7px;}
+
+.mt14{ margin-top:14px;}
+.mt25{ margin-top:25px;}
+
+.align_r{ text-align:right;}
+.align_c{ text-align:center;}
+
+.rightad{ padding:2px; border:2px solid #ebebeb;}
+.line{ height:1px; border-bottom:1px dashed #cfcfcf; margin:6px 0px;}
+.title{ height:24px; background:url(../images/index/line.jpg) repeat-x left bottom; margin-bottom:10px; line-height:normal;}
+.title span{ float:right; font-size:12px; font-weight:normal;}
+.title em{font-size:16px; font-weight:bold; padding-left:4px;padding-top:2px; width:90px; display:inline-block; float:left;}
+.title i{ padding-top:4px; display:inline; float:left;}
+.zxtit{ height:15px; background:#333333; line-height:15px; padding-right:10px; }
+/*.zxtit em{ font-size:16px; font-weight:bold; color:#e11415; display: inline-block; background:#fff; padding-right:10px; float:left;}*/
+.zxtit i{ color:#fff; padding-left:8px; display:inline-block; float:left;}
+.zxtit img{ float:left}
+.zxtit span a{ color:#fff; }
+.zxtit span a:hover{ text-decoration:none;}
+
+
+
+
+
+.h20{ height:20px; line-height:20px;}
+.list li{background:url(../images/index/icon_05.gif) left center no-repeat; padding-left:8px;}
+
+
+/*-----分页----*/
+.pages{ padding-top:20px;line-height:23px; text-align:center; clear:both;}
+.pages a{ display:inline-block; height:23px;  padding:0px 5px; margin:0px 3px;}
+.pages a.no:hover{ background:none;}
+.pages a.disabled{ display:none;}
+
+.pages a:hover,.pages a.current{ background:#c11920; color:#fff; text-decoration:none;}
+.pages em{ padding-left:20px;}
+.pages .gobox{ background:url(../images/common/page_05.gif) no-repeat; width:41px; height:18px; text-align:center; border:none 0px; vertical-align:middle; margin-
+
+top:-2px; line-height:18px;}
+
+
+.mask{background:rgba(0,0,0,0.5); height:100%; width:100%; position:fixed; left:0px; top:0px; z-index:1111; display:none;}
+.login_bg{ width:522px; height:282px; background:rgba(255,255,255,0.4);position:fixed; _position:absolute; left:50%; top:50%; margin:-141px 0px 0px -261px; z-
+
+index:1112;display:none; _top:expression(eval(document.documentElement.clientHeight/2+document.documentElement.scrollTop));}
+.login{width:512px; height:272px;background:#fafafa; margin:5px;}
+.login h2{ height:22px; background:#2a2e31; padding:5px 15px;}
+.login h2 span{ float:right; padding-top:2px;}
+
+.login_l{ width:325px; height:230px; float:left; border-right:1px solid #cfcfcf; padding-top:10px;}
+.login_l dl{ float:left; width:100%; padding-top:13px;}
+.login_l dl dt{ width:115px; float:left; text-align:right; font-size:14px; height:25px;}
+.login_l dl dd{ width:205px; float:left; line-height:25px;}
+.checkbox{ float:left; width:13px; height:13px; margin-top:2px;}
+.login_l dl dd label{float:left; line-height:20px; padding-left:5px;}
+.loginbox{ background:url(../images/common/bg.gif) repeat-x; height:23px; border:1px solid #b9b9b9; width:185px; padding-left:5px; line-height:23px; margin-
+
+bottom:5px;}
+.yes,.wrong{ background:url(../images/common/icon.gif) left -88px; height:20px;padding-left:20px; line-height:20px; display:inline-block}
+.wrong{background:url(../images/common/icon.gif) left -153px; color:#e11415;} 
+.send{ background:#4b5d7b; color:#fff; text-align:center; height:30px; line-height:30px; border:none 0px; padding:0 20px; font-family: "Microsoft YaHei"; 
+
+cursor:pointer;}
+
+.login_r{ width:183px; height:240px; float:left; border-left:1px solid #fdfdfd; text-align:center;}
+.login_r h3{ padding-top:60px; font-size:15px; padding-bottom:10px;}

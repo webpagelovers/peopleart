@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+/* CSS Document */
+#main{
+      width:1465px;
+	  height:auto;
+	  margin:0 auto;
+     }
+#main_top{
+    width:1465px;
+	height:106px;
+	margin:0 auto;
+	}
+.main_top_list_1{
+     float:left;
+    width:232px;
+	height:106px;
+     }
+.main_top_list_1 img{        /*main头部的logo样式*/
+      padding-top:30px; 
+		 }
+.main_top_list_2{ 
+        width:1233px;
+		height:auto;   
+        float:left;
+	  	  }
+.main_top_list_2 ul li span{       /*设置当前页的文字加粗样式*/
+          font-weight:bold;
+		  }
+.main_top_list_2 ul{          /*logo右边的导航*/
+           padding-top:45px;
+		   padding-left:20px;
+		   }		   
+.main_top_list_2 ul li{
+        padding-right:3px;
+        float:left;
+		font-size:14px;
+		font-weight:normal;
+		list-style:none;
+        font-family:"\5FAE\8F6F\96C5\9ED1";
+		}
+ .main_top_list_2 ul li a{
+		     color:#000000;
+		      text-decoration:none;
+			  }
+.main_top_list_2 ul li a:hover{
+			           font-weight:bold;
+					}				  			  
+					  
+#conten{                         /*网页main中间内容*/
+    width:1465px;
+	margin:0 auto;
+	height:auto;
+	}					  
+
+.conten_right{                   /*中间内容的右半部分--图片展示*/
+       width:1370px;
+   	  height:auto;
+	  position:relative;
+	  margin:0px auto;
+	  }
+.gdwz{  
+     position:absolute;                         /*位于图片上方的文字部分---使用绝对定位*/
+	top:208px;
+	left:0px;
+	width:108px;
+	height:16px;
+	background-color:#E4E4E4;
+	font-size:12px;
+	text-align:center;
+	}
+.gdwz a:hover{                  /*文字鼠标经过效果*/
+       color:#000000;
+	   cursor:pointer;
+	   text-decoration:none;
+    }
+ .conten_right_list{                /*图片*/
+        float:left;
+		margin-left:3px;
+		margin-top:3px;
+	  width:271px;
+	  height:240px;
+	    position:relative;
+       background:#000;
+	  }
+.bf{ display:block; position:absolute; top:0px; background:#333; opacity:0.5; width:271px; height:240px; }
+
+ 

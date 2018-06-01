@@ -1,0 +1,56 @@
+/* CSS Document */
+.main{ width:980px; margin:0 auto;}
+.list_con_hd{height:33px;line-height:33px;font-size:12px;font-weight:100;color:#777;}
+.list_con_hd span{color:#da0203;}
+.list_con_bd{width:980px;height:auto;overflow:hidden;}
+
+.bd_l_ncvlist{height:47px;line-height:39px;font-size:12px;background:url(../ztimg/ztlbnavbj.jpg) no-repeat 0px 0px;margin-top:4px; width:980px;}
+.l_ncv_l{float:left;width:345px;height:47px;}
+.l_ncv_l  ul{height:47px;}
+.l_ncv_l  li{float:left;padding:0px 25px;text-align:center;cursor:pointer;}
+.l_ncv_li01{width:72px;font-size:16px;color:#777;}
+.l_ncv_li02{background:url(../tpimg/tplist/l_nav_l.png) no-repeat 0px 3px;color:#da0203;}
+.l_ncv_li03{background:url(../tpimg/tplist/l_nav_l.png) no-repeat 0px -56px;}
+.l_ncv_r{float:right;width:306px;height:47px;}
+.l_ncv_r span{float:left;width:76px;height:47px;text-align:center !important;background:url(../tpimg/tplist/l_nav_l.png) no-repeat -6px -94px;cursor:pointer;}
+span.share{background:url(../tpimg/tplist/share_bg.jpg) no-repeat 0px 6px;}
+span.share a{color:#fff !important;}
+.bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more {
+    background-image: none !important;
+	line-height: 24px !important;
+	float: left !important;
+    font-size: 12px !important;
+    height: 47px !important;
+    line-height: 38px !important;
+    margin:0px !important;
+    padding-left:0px !important;
+	text-align:center !important;
+	width:80px !important;
+	color:#fff !important;
+}
+.main_list{ width:980px; margin:0 auto;}
+.list_box{ width:996px;}
+.list_box dl{ width:237px; float:left; margin-right:11px; display:inline-block; margin-top:15px; margin-bottom:10px;}
+.list_box dl dt{ width:235px; border:1px solid #ccc; height:116px; overflow:hidden;}
+.list_box dl dt img{ max-height:92px; max-width:235px; margin:0 auto; margin-top:12px;}
+.list_box dl dt a{ display:block; width:235px; height:92px;}
+.list_box dl dt a:hover{filter:alpha(opacity=90);opacity:0.7; width:235px; height:92px;}
+.list_box dl dd{ width:235px; text-align:center; font-size:12px; margin-top:5px;}
+
+.fenye{width:100%;height:63px;line-height:102px;text-align:center;}
+.fenye a{display:inline-block;width:22px;height:22px;border:1px solid #ccc;line-height:24px; margin-left:3px;}
+.fenye a.current{background:#da0203;color:#fff;}
+.fenye a.prev,.fenye a.next{width:58px;}
+
+.rdtp{ width:980px; margin:0 auto; margin-top:10px; }
+.rdtp_bt{background:url(../ztimg/rdtpbj.jpg) no-repeat; height:37px}
+.rdtp_bt span{ display:block; float:left; font-size:22px; padding-left:23px; line-height:37px;}
+.rd_list{ width:230px; float:left; margin-right:20px;}
+.rdtp_box{ width:1009px; margin-top:10px; margin-bottom:35px;}
+.rd_list dl dt img{ max-width:229px; max-height:150px; display:block; margin:0 auto;}
+.rd_list dl dt a{ display:block; width:229px; height:150px;}
+.rd_list dl dt a:hover{filter:alpha(opacity=90);opacity:0.7;}
+.rd_list dl dd{ width:229px; height:30px; line-height:30px; font-size:14px; text-align:center; font-weight:bold;overflow:hidden;}
+.list_d{ width:1000px; margin-top:10px;}
+.list_d ul li{ background:url(../ztimg/rdztlibj.jpg) no-repeat left; padding-left:14px; height:24px; line-height:24px; width:216px; margin-right:20px; float:left; font-size:12px; color:#000; border-bottom:1px dashed #ccc; overflow:hidden;}
+

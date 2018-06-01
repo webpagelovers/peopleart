@@ -1,0 +1,30 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.main{width:980px;margin:auto;overflow:hidden;}
+.main_hd{height:40px;line-height:40px;font-size:12px;}
+.main_list{width:992px;}
+.main_list dl{width:218px;padding:10px;background:#efefef;float:left;margin-right:10px;_display:inline;margin-top:10px;}
+.main_list dt{height:auto;}
+.main_list dd{height:63px;overflow:hidden;line-height:21px;color:#666;font-size:12px;}
+.list_bt{margin-top:10px;height:42px !important;}
+.list_bt a{color:#333;font-size:14px;}
+.list_bt a:hover{color:#da0203 !important;}
+.jz_more{height:38px;line-height:38px;text-align:center;background:#f5f5f5;cursor:pointer;font-size:12px;color:#878787;border:1px solid #ddd;width:436px;margin:10px auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

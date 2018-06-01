@@ -1,0 +1,64 @@
+/* CSS Document */
+/* 公共 */
+.part_all{width:940px;overflow:hidden;margin:auto;}
+.jg_list{height:470px;border-bottom:1px dotted #ddd;}
+.jg_hd{height:70px;line-height:95px;}
+.jg_hd a{float:right;}
+.jg_hd a{font-size:12px;font-family:"\5FAE\8F6F\96C5\9ED1";color:#da0203;}
+.jg_bd{width:990px;height:450px;}
+.jg_bd dl{float:left;width:202px;height:170px;margin-top:25px;margin-right:43px;_display:inline;}
+.jg_bd dt{height:138px;}
+.jg_bd dd{height:30px;line-height:30px;overflow:hidden;text-align:center;}
+.jg_bd dd a{color:#999;font-size:15px;}
+.jg_bd dd a:hover{color:#da0203;font-size:15px;}
+.jg_bd dt img{padding:3px;border:1px solid #ddd;}
+
+/* 机构nav */
+.jg_nav{width:980px;height:65px;margin:auto;margin-top:10px;border-top:1px solid #ddd;background:url(../jgimages/jg_nav_bg.jpg) no-repeat -4px -2px;}
+.jg_nav ul{margin-left:135px;height:55px;line-height:55px;}
+.jg_nav li{float:left;text-align:center;width:119px;}
+.jg_nav li a{display:block;font-size:16px;font-family:"\5FAE\8F6F\96C5\9ED1";}
+.jg_nav li a:hover{background:#ed6b02;color:#fff;}
+
+/* 机构搜索 */
+.jg_search{width:940px;height:55px;margin:auto;line-height:55px;}
+.jgsc_l{width:600px;height:55px;float:left;}
+.jgsc_l dl{width:500px;}
+.jgsc_l dt{float:left;width:150px;text-align:center;font-size:15px;font-family:"\5FAE\8F6F\96C5\9ED1";font-weight:bold;color:#323232;}
+.jgsc_l dd{float:left;width:350px;}
+.jgsc_l dd a{display:inline-block;padding:0px 5px;font-size:15px;font-family:"\5FAE\8F6F\96C5\9ED1";color:#999999;}
+.jgsc_l dd a:hover{color:#da0203;}
+
+.jgsc_r{width:340px;height:55px;float:right;background:url(../jgimages/jgsc_bg.jpg) no-repeat right center;}
+#txt01{float:left;width:216px;background:none;border:0px;height:34px;line-height:34px;margin-top:10px;padding:0px 5px;color:#ddd;font-size:12px;}
+#btn01{float:left;width:68px;height:38px;line-height:38px;margin-top:10px;background:none;border:0px;cursor:pointer;padding-left:10px;}
+#btn01{font-size:12px;position:relative;}
+#btn01 ul{width:58px;line-height:24px;position:absolute;left:0px;top:34px;background:#fff;padding:10px;}
+#btn02{float:left;width:36px;height:36px;line-height:36px;margin-top:10px;background:none;border:0px;cursor:pointer;}
+
+/* 画廊 */
+.hualang{background:url(../jgimages/list_h01_bg.jpg) no-repeat -57px 0px;}
+.list_h01{height:70px;overflow:hidden;}
+
+/* 美术馆 */
+.msg{background:url(../jgimages/list_h02_bg.jpg) no-repeat -27px 0px;}
+.msg h3 a{color:#ed6b02;}
+
+/* 博物馆 */
+.bwg{background:url(../jgimages/list_h03_bg.jpg) no-repeat -27px 0px;}
+.bwg h3 a{color:#bfa618;}
+
+/* 拍卖行 */
+.pmh{background:url(../jgimages/list_h04_bg.jpg) no-repeat -27px 0px;}
+
+
+/* 媒体 */
+.mt{background:url(../jgimages/list_h05_bg.jpg) no-repeat -27px 0px;}
+.mt h3 a{color:#ed6b02;}
+
+/* 院校 */
+.yx{background:url(../jgimages/list_h06_bg.jpg) no-repeat -27px 0px;}
+.yx h3 a{color:#bfa618;}
+
+/* 公益 */
+.gy{background:url(../jgimages/list_h07_bg.jpg) no-repeat -27px 0px;}
